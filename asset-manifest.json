@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SecretariatLive/static/css/main.96097aea.css",
+    "main.js": "/SecretariatLive/static/js/main.730b1ff1.js",
+    "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
+    "static/media/cochon_euro.jpg": "/SecretariatLive/static/media/cochon_euro.e5b3c70bd919c0c492b7.jpg",
+    "static/media/fondRoseHome.jpg": "/SecretariatLive/static/media/fondRoseHome.20aa0dcdd1c717d8ad87.jpg",
+    "index.html": "/SecretariatLive/index.html",
+    "main.96097aea.css.map": "/SecretariatLive/static/css/main.96097aea.css.map",
+    "main.730b1ff1.js.map": "/SecretariatLive/static/js/main.730b1ff1.js.map",
+    "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96097aea.css",
+    "static/js/main.730b1ff1.js"
+  ]
+}
