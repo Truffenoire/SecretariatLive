@@ -1,0 +1,51 @@
+.particuliers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .iconExplose{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        img{
+            width: 150px 
+        }
+        .iconFlexAnim{
+            display: flex;
+            flex-direction: column;
+            transform: translateY(-100px); 
+            .iconEnd{
+                transform: translateY(60px); 
+            }
+            .iconStart{
+                transform: translateY(-90px); 
+            }
+        }
+    }
+    .iconMedit{
+        display: flex;
+        align-items: center;
+        img{
+            width: 150px 
+        }
+    }
+    .title{
+        padding: 2rem;
+    }
+    .h2title{
+        display: inline;
+        padding: 2rem;
+    }
+    .h2titleIcon{
+        display: flex;
+        padding: 0rem 2rem 2rem 2rem;
+    }
+    .particuliersListe{
+        margin: 1rem;
+        font-size: 18px;
+        li{
+            padding: 0.2rem;
+        }
+    }
+
+}

@@ -1,0 +1,29 @@
+.avis {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3%;
+
+    .pastilleAvis {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 250px;
+        width: 33%;
+        margin-bottom: 3%;
+        padding: 2%;
+        box-shadow: 1px 11px 20px 20px white;
+        .txtAvis{
+            padding: 5px;
+        }
+        .starsAvis {
+            color: rgb(130, 130, 51);
+        }
+        .nameA{
+            align-self: end;
+        }
+        .logoAvis{
+            align-self: end;
+        }
+    }
+}

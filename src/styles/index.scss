@@ -1,0 +1,23 @@
+@import './bannerTop';
+@import './header';
+@import './home';
+@import './_card';
+@import './cardTxt';
+@import './entreprises';
+@import './particuliers';
+@import './FAQ';
+@import './tarifs';
+@import './contact';
+@import './footer';
+@import './rgpd';
+@import './pastillesAvis';
+@import './fontFamily';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    background-color: #ffebfb6e;
+}

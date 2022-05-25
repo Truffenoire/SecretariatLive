@@ -1,0 +1,57 @@
+.header{
+    background: black fixed;
+    display: flex; 
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    .selected{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        padding: 10px 15px;
+        border-bottom: 3px solid white;   
+    }
+    // .parentMenu{
+    //     position: relative; 
+    // }
+    .sousMenu{
+        display: flex;
+        float: left;
+        flex-direction: column;
+        position: absolute;
+        background-color: black;
+        right: 50%; 
+        top:45px;
+        a{  
+            text-decoration: none;
+            font-size: 20px; 
+            color: white;
+            padding: 10px 15px;
+            &:hover{
+                text-shadow: 4px 3px 6px white;
+            }
+        }
+    }
+    .logo{
+        img{  
+            width: 150px; 
+            margin-top: 25px;  
+        }
+    }
+    .navBar{
+        position: sticky;
+       ul{
+           display: flex;
+         a.hoverA{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            padding: 10px 15px;
+            &:hover{
+                    border-bottom: 3px solid white;
+                }  
+        }
+    } 
+    }
+    
+}

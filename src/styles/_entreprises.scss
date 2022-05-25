@@ -1,0 +1,50 @@
+.entreprises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        padding: 1rem;
+    }
+    .entreprisesList{
+        font-size: 18px;
+        li{
+            padding: 0.2rem;
+        }
+    }
+    p{
+        background-color: #f7f629a6;
+    }
+}
+.organisation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        padding: 1rem;
+    }
+    .organisationList{
+        margin: 1rem;
+        font-size: 18px;
+        li{
+            padding: 0.2rem; 
+        }
+    }
+    .fromLeft{
+        background-color: #00aa9c;
+        box-shadow: 4px 3px 6px #166c65; 
+        padding: 0.6rem;
+        color: white;
+        font-size: 18px; 
+        border-radius: 10px;
+        margin: 15px 0; 
+    }
+    .fromRight{
+        background-color: #00aa9c;
+        box-shadow: 4px 3px 6px #166c65; 
+        padding: 0.6rem;
+        color: white;
+        font-size: 18px; 
+        border-radius: 10px; 
+        margin: 15px 0;
+    }
+}

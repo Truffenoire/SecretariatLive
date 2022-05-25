@@ -1,0 +1,119 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    .title {
+        margin: 2rem;
+    }
+    .containImgMail {
+        width: 45%;
+        margin: 2rem;
+        background-color: #f5dad0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transform: translate3d(-50px, 20px, 10px);
+            box-shadow: 6px 6px 10px black;
+        }
+    }
+    .linkContact {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        gap: 10%; 
+
+        .containTxt {
+            font-size: 20px;
+            margin: 2rem;
+
+            .titleH4 {
+                margin: 1rem;
+            }
+
+            .numberTel {
+                margin: 1rem;
+            }
+
+            .mail {
+                margin: 1rem;
+            }
+
+            .facebook {
+                margin: 1rem;
+            }
+
+            .insta {
+                margin: 1rem;
+            }
+        }
+
+        .containImg {
+            width: 45%;
+            margin: 2rem;
+            background-color: #f5dad0;
+
+            img {
+                width: 100%;
+                transform: translate3d(50px, 20px, 10px);
+                box-shadow: 6px 6px 10px black;
+            }
+        }
+    }
+
+    .formContainer {
+        display: flex;
+        width: 90%;
+        margin: 2rem auto; 
+        justify-content: space-between;
+
+        .containForm {
+            width: 40%;
+
+            .etoile {
+                color: red;
+            }
+
+            label {
+                margin: 0.8rem;
+            }
+
+            textarea {
+                margin: 0.8rem;
+            }
+
+            input {
+                height: 40px;
+                margin: 0.8rem;
+            }
+
+            .formulaire {
+                display: flex;
+                flex-direction: column;
+                .smallSubmit{
+                    margin: 0.8rem;
+                }
+            }
+
+            .btnForm {
+                width: max-content;
+                font-size: 14px;
+                margin: 0.8rem;
+                padding: 10px; 
+                background-color: #00aa9c;
+                color: white;
+                border-radius: 18px;
+                border: none;
+            }
+        }
+        .containImg{
+    
+            width: 50%;   
+            img{
+                width: 100%; 
+                object-fit: cover;
+                height: 100%; 
+            }
+        }
+    }
+}

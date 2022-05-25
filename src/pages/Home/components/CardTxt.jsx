@@ -1,0 +1,61 @@
+import React, {useEffect} from 'react';
+import {gsap} from 'gsap'
+import { ScrollTrigger} from 'gsap/ScrollTrigger'
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+
+gsap.registerPlugin( ScrollTrigger, ScrollToPlugin )
+
+const CardTxt = () => {
+
+    useEffect(() => {
+        gsap.fromTo(".slideFromLeft",
+            {
+                x:-100, opacity: 0, stagger: 0.5,
+            }, 
+            {
+                x: 0, opacity: 1, stagger: 0.5,
+                scrollTrigger: {
+                    trigger:".slideFromLeft",
+                }
+            }
+        )
+    }, []); 
+
+    useEffect(() => {
+        gsap.fromTo(".slideFromRight",
+            {
+                x:100, opacity: 0, stagger: 0.5,
+            }, 
+            {
+                x: 0, opacity: 1, stagger: 0.5,
+                scrollTrigger: {
+                    trigger:".slideFromRight",
+                }
+            }
+        )
+    }, []); 
+
+    return (
+        <div className='cardTxt'>
+            <div className="cardListTxt">
+                <h2>Une assitante indépendante ?</h2>
+                <ul>
+                    <li className='slideFromLeft'>Elle travaille à son compte pour differebts clients, souvent à distance.</li>
+                    <li className='slideFromLeft'>Elle effectue souvent le même travail qu'un salarié : <br></br> secretariat et gestion administrative.</li>
+                    <li className='slideFromLeft'>Pas de salaire mais une facture de prestation de service.</li>
+                </ul>
+            </div>
+            <div className="cardListTxt">
+                <h2 className='h2ListTwo'>Pourquoi ?</h2>
+                <ul>
+                    <li className='slideFromRight'>Terminé les frais et charges salariale.</li>
+                    <li className='slideFromRight'>Vous n'êtes pas engagés par un contrat de travail.</li>
+                    <li className='slideFromRight'>Pâlier a une surcharge de travail temporaire.</li>
+                    <li className='slideFromRight'>Combler l'absence de votre secrétaire en congés ou malade.</li>
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default CardTxt;

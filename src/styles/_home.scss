@@ -1,0 +1,25 @@
+.home{
+    width: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+    background-image: url("/imageImport/fondRoseHome.jpg");
+    background-size: contain;
+    .hidden{
+        display: none;
+    }
+    .visible{
+        opacity: 1;
+    }
+    .wordContain{
+        color: #C7AAA3;
+        padding-left: 10px;
+    }
+    .barre{
+        border-right: 1px solid black;
+    }
+    h1{
+        // margin-bottom: 800px;
+        padding-top: 5%;
+        width: 70%;
+    }
+}
