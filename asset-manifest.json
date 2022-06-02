@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/SecretariatLive/static/css/main.96097aea.css",
-    "main.js": "/SecretariatLive/static/js/main.730b1ff1.js",
+    "main.css": "/SecretariatLive/static/css/main.e2619baa.css",
+    "main.js": "/SecretariatLive/static/js/main.18d56f9d.js",
     "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
+    "static/media/yoga_medit.png": "/SecretariatLive/static/media/yoga_medit.a90fb84d901697165a34.png",
     "static/media/cochon_euro.jpg": "/SecretariatLive/static/media/cochon_euro.e5b3c70bd919c0c492b7.jpg",
-    "static/media/fondRoseHome.jpg": "/SecretariatLive/static/media/fondRoseHome.20aa0dcdd1c717d8ad87.jpg",
+    "static/media/imgCharge.jpg": "/SecretariatLive/static/media/imgCharge.b0a14fe5fc94305c60ed.jpg",
+    "static/media/imgEntreprise.png": "/SecretariatLive/static/media/imgEntreprise.7acc4a7926ebbb425325.png",
+    "static/media/imgTextAnim.jpg": "/SecretariatLive/static/media/imgTextAnim.af085f3a321df0de2247.jpg",
+    "static/media/email.jpg": "/SecretariatLive/static/media/email.ccd3f552476e4663da7e.jpg",
+    "static/media/call-center-1.jpg": "/SecretariatLive/static/media/call-center-1.aaa89540f9451eae9b8c.jpg",
     "index.html": "/SecretariatLive/index.html",
-    "main.96097aea.css.map": "/SecretariatLive/static/css/main.96097aea.css.map",
-    "main.730b1ff1.js.map": "/SecretariatLive/static/js/main.730b1ff1.js.map",
+    "main.e2619baa.css.map": "/SecretariatLive/static/css/main.e2619baa.css.map",
+    "main.18d56f9d.js.map": "/SecretariatLive/static/js/main.18d56f9d.js.map",
     "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96097aea.css",
-    "static/js/main.730b1ff1.js"
+    "static/css/main.e2619baa.css",
+    "static/js/main.18d56f9d.js"
   ]
 }
