@@ -1,33 +1,30 @@
 .particuliers{
     display: flex;
     flex-direction: column;
+    font-size: 30px;
     align-items: center;
+    padding: 30px 0;
     .iconExplose{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 200px;
+        .iconCharge{
+            width: 750px;
+            height: 500px;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+        }
         img{
             width: 150px 
-        }
-        .iconFlexAnim{
-            display: flex;
-            flex-direction: column;
-            transform: translateY(-100px); 
-            .iconEnd{
-                transform: translateY(60px); 
-            }
-            .iconStart{
-                transform: translateY(-90px); 
-            }
         }
     }
     .iconMedit{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        img{
-            width: 150px 
-        }
+        height: 586px;
     }
     .title{
         padding: 2rem;
@@ -42,7 +39,7 @@
     }
     .particuliersListe{
         margin: 1rem;
-        font-size: 18px;
+        font-size: 30px;
         li{
             padding: 0.2rem;
         }

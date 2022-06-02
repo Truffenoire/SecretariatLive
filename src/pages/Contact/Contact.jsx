@@ -7,6 +7,9 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
+import logoCall from './components/images/call-center-1.jpg'
+import logoMail from './components/images/email.jpg'
+
 
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
@@ -44,7 +47,7 @@ const Contact = () => {
             <h2 className='title'>Une question, un projet ou besoin d'une secretaire indépendante au plus vite ?</h2>
             <div className="linkContact">
                 <div className="containImg">
-                    <img src="./images/call-center-1.jpg" alt="" />
+                    <img src={logoCall} alt="" />
                 </div>
                 <div className="containTxt">
                     <h4 className='titleH4'>Contactez moi !</h4>
@@ -78,7 +81,7 @@ const Contact = () => {
 
                 </div>
                 <div className="containImgMail">
-                    <img src="./images/email.jpg" alt="" />
+                    <img src={logoMail} alt="" />
                 </div>
             </div>
             <PastilleAvis />

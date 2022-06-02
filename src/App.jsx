@@ -5,8 +5,8 @@ import { useState } from "react"
 import Home from './pages/Home/Home'
 import Contact from './pages/Contact/Contact'
 import RGPD from './pages/RGPD/RGPD'
-import Entreprises from './pages/Services/components/Entreprises'
-import Particuliers from './pages/Services/components/Particuliers'
+import Entreprises from './pages/Services/Entreprises'
+import Particuliers from './pages/Services/Particuliers'
 import FAQ from "./pages/FAQ/FAQ"
 import Tarifs from "./pages/Tarifs/Tarifs"
 import Footer from './components/Footer/Footer'

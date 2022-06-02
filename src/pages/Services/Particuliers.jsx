@@ -4,6 +4,9 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
+import chargeMentale from './components/images/imgCharge.jpg'
+import deleguez from './components/images/yoga_medit.png'
+
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
@@ -14,10 +17,10 @@ const Particuliers = () => {
     useEffect(() => {
         gsap.fromTo(".yogaSuperpose",
             {
-                x: 200, opacity: 0, delay: 1,
+                height: 0, opacity: 0, delay: 1,
             },
             {
-                x: -80, opacity: 1, delay: 0.3, duration: 1.5,
+                height: 500, opacity: 1, delay: 0.3, duration: 1.5,
                 scrollTrigger: {
                     trigger: ".yogaSuperpose",
                 }
@@ -31,7 +34,7 @@ const Particuliers = () => {
                 x: -200, opacity: 0, delay: 1,
             },
             {
-                x: 70, opacity: 1, delay: 0.3, duration: 1.5,
+                x: 0, opacity: 1, delay: 0.3, duration: 1.5,
                 scrollTrigger: {
                     trigger: ".h2titleIcon",
                 }
@@ -42,10 +45,10 @@ const Particuliers = () => {
     useEffect(() => {
         gsap.fromTo(".iconEnd",
             {
-                y: -50, opacity: 0, delay: 1,
+                height: 0, opacity: 0, delay: 1,
             },
             {
-                y: 60, opacity: 1, delay: 0.3, duration: 1.5,
+                height: 500, opacity: 1, delay: 0.3, duration: 1.5,
                 scrollTrigger: {
                     trigger: ".iconEnd",
                 }
@@ -57,15 +60,14 @@ const Particuliers = () => {
         <div className='particuliers'>
             <div className='iconExplose'>
                 <h1 className='title'>Exit la charge mentale !</h1>
-                <div className="iconFlexAnim">
-                <img className='iconEnd' src="./images/emojiExploseFume.png" alt="" />
-                <img className='iconStart' src="./images/emojiExploseTete.png" alt="" />
+                <div className='iconCharge'>
+                    <img className='iconEnd' src={chargeMentale} alt="" />
                 </div>
             </div>
             <h2 className='h2title'>Le temps vous manque ? </h2>
             <div className="iconMedit">
                 <h2 className='h2titleIcon'> Délèguez ! </h2>
-                <img className='yogaSuperpose' src="./images/yoga_medit.png" alt="" />
+                <img className='yogaSuperpose' src={deleguez} alt="" />
             </div>
             <ul className='particuliersListe'>
                 <li>Lettres personnelles, professionnelles.</li>

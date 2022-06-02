@@ -45,6 +45,7 @@ const CardTxt = () => {
                     <li className='slideFromLeft'>Pas de salaire mais une facture de prestation de service.</li>
                 </ul>
             </div>
+            <div className="border"></div>
             <div className="cardListTxt">
                 <h2 className='h2ListTwo'>Pourquoi ?</h2>
                 <ul>

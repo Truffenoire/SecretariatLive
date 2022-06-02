@@ -9,7 +9,8 @@
                 align-self: flex-start;
             }
             .listOrganisé{
-                width: 900px;
+                max-width: 900px;
+                padding: 0 3%;
                 display: flex; 
                 flex-direction: column;
                 p{

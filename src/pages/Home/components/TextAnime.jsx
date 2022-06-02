@@ -26,7 +26,7 @@ const Text = () => {
 
     return (
         <div>
-            <h1 className="text">Délèguez votre gestion administrative à une secretaire indépendante <br /> afin de gagner en :
+            <div className="text">Délèguez votre gestion administrative à une secretaire indépendante <br /> afin de gagner en :
                 <span className='wordContain' ref={wordsRef}>
                     <span className="frais">
                         <span>F</span>
@@ -67,7 +67,7 @@ const Text = () => {
                     </span>
                     <span className='barre' ref={barre}></span>
                 </span>
-            </h1>
+            </div>
         </div>
     );
 };

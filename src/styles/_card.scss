@@ -5,11 +5,13 @@
     justify-content: space-between;
     align-items: baseline;
     width: 50%;
-    margin: 150px auto;
+    align-self: center;
     padding: 10px;
     box-shadow: 4px 3px 6px #166c65; 
     border-radius: 15px;
     height: 200px;
+    width: 35%;
+    margin: 3%;
     .flex{
         color: white;  
         display: flex;
