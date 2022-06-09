@@ -71,8 +71,8 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
             </div>
             <nav className='navBar' >
                 <ul>
-                    <Link className={accueil}  onClick={handleAccueil} to={"/"}>Accueil</Link>
-                    <Link className={service} onMouseLeave={handleServiceLeave} onMouseEnter={handleService} to={"/"}>Service</Link>
+                    <Link className={accueil}  onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
+                    <Link className={service} onMouseLeave={handleServiceLeave} onMouseEnter={handleService} to={"/SecretariatLive"}>Service</Link>
                     {sousMenu === 1 ?
                         <div onMouseLeave={handleClose} className='sousMenu'>
                             <Link onMouseLeave={handleServiceLeave} onMouseEnter={handleService} onClick={handleClose} to={"/entreprises"}>Entreprises</Link>

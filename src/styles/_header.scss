@@ -1,7 +1,7 @@
 .header{
     background: black fixed;
     display: flex; 
-    height: 100px;
+    // height: 100px;
     justify-content: space-around;
     align-items: center;
     .selected{
@@ -20,8 +20,8 @@
         flex-direction: column;
         position: absolute;
         background-color: black;
-        right: 50%; 
-        top:45px;
+        right: 30%; 
+        top:110px;
         a{  
             text-decoration: none;
             font-size: 20px; 
@@ -39,9 +39,9 @@
         }
     }
     .navBar{
-        position: sticky;
        ul{
            display: flex;
+        //    flex-direction: column;
          a.hoverA{
             text-decoration: none;
             font-size: 20px;
@@ -54,4 +54,54 @@
     } 
     }
     
+}
+@media (max-width:1024px) {
+    .header{
+        .sousMenu{
+            right: 32%;
+        }
+    }
+}
+@media (max-width:768px) {
+    .header{ 
+        .sousMenu{
+            top: 110px;
+            right: 35%;
+            border: 1px solid white;
+        }
+    }
+}
+@media (max-width:425px) {
+    .header{
+        flex-direction: column; 
+        .sousMenu{
+            top: 175px;
+            right: 6%;
+            border: 1px solid white;
+        }
+        .navBar{
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+}
+@media (max-width:320px) {
+    .header{
+        .sousMenu{
+            a{
+                font-size: 16px;
+            }
+        }
+        .navBar{
+            ul{
+                a.hoverA{
+                    font-size: 18px;
+                }
+                a.selected{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }

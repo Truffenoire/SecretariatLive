@@ -1,7 +1,7 @@
 .card{
     background-color: #00aa9c;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
     width: 50%;
@@ -9,13 +9,13 @@
     padding: 10px;
     box-shadow: 4px 3px 6px #166c65; 
     border-radius: 15px;
-    height: 200px;
+    // height: 200px;
     width: 35%;
     margin: 3%;
     .flex{
         color: white;  
         display: flex;
-        font-size: 20px;
+        align-items: center;
         .icon{
             padding-right: 30px;
             font-size: 35px;
@@ -31,6 +31,7 @@
   justify-content: space-around;
   .twoFlex{
     display: flex;
+    align-items: center;
     padding: 1rem; 
     color: white;
     background-color: #00aa9c; 
@@ -42,4 +43,20 @@
     }
   }
 }
-  
+@media (max-width:320px) {
+  .card{
+    .flex{
+      .icon{
+        font-size: 20px;
+      }
+      .txt{
+        font-size: 17px;
+      }
+    }
+  }
+  .twoCard{
+    .twoFlex{
+      font-size: 17px;
+    }
+  }
+}

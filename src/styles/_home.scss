@@ -3,7 +3,7 @@
     margin: 0 auto;
     .bgCard{
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         padding: 3%;
     }
     .wordContain{
@@ -24,5 +24,36 @@
         padding: 5% 10%;
         font-weight: 600;
         font-size: 45px;
+    }
+}
+
+@media (max-width:767px) {
+    .home {
+        .bgCard {
+            flex-direction: column;
+        }
+        .twoCard {
+            width: 35%;
+            flex-direction: column;
+            margin: 0 auto;
+            .twoFlex{
+                margin: 1rem;
+            }
+        }
+    }
+}
+@media (max-width:425px) {
+    .home {
+        .text{
+            font-size: 25px;
+        }
+        .bgCard{
+            .card{
+                width: 70%;
+            }
+        }
+        .twoCard{
+            width: 70%;
+        }
     }
 }
