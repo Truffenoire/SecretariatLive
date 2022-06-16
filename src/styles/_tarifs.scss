@@ -9,7 +9,6 @@
         // background-image: url('/imageImport/cochon_euro.jpg'); 
         display: flex;
         font-size: 18px;
-        margin: 4rem;
         justify-content: space-around;
         .bullePrix {
             background-image: url('/imageImport/cochon_euro.jpg'); 
@@ -29,7 +28,6 @@
             height: 200px; 
             width: 200px;
             border-radius: 50%;
-            margin: 3rem; 
         }
     }
     .devis {
@@ -53,4 +51,15 @@
             margin: 1rem;
         }
     }     
+}
+@media (max-width:425px) {
+    .tarifs{
+        .bulleContainer{
+            flex-direction: column;
+            align-items: center;
+            .bullePrix{
+                margin: 0;
+            }
+        }
+    }
 }
