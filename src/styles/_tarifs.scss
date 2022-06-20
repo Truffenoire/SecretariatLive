@@ -41,7 +41,8 @@
     }
     .prestation {
         height: 140px; 
-        margin: 1rem;
+        margin: 8rem;
+        padding-bottom: 159px;
         text-align: left;
         font-size: 18px;
         .title {
@@ -49,11 +50,22 @@
         }
         .prestaList {
             margin: 1rem;
+            li{
+                margin: 1.5rem;
+            }
         }
     }     
 }
 @media (max-width:425px) {
     .tarifs{
+        .prestation{
+            margin: 1rem; 
+            .prestaList{
+                li{
+                    margin: 0.5rem;
+                }
+            }
+        }
         .bulleContainer{
             flex-direction: column;
             align-items: center;

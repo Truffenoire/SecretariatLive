@@ -58,3 +58,54 @@
         margin: 15px 0;
     }
 }
+@media screen and (min-width:320px) and (max-width:425px) {
+    .entreprises{
+        font-size: 13px;
+        text-align: center;
+        .entreprisesList{
+            li{
+                font-size: 18px;
+                max-width: 265px;
+            }
+        }
+    }
+        .organisation{
+            font-size: 16px;
+            .organisationList{
+                font-size: 18px;
+                li{
+                    list-style-type: circle;
+                    max-width: 265px;
+                }
+            }
+            .fromLeft{
+                font-size: 14px;
+            }
+            .fromRight{
+                font-size: 14px;
+            }
+        }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .entreprises{
+        font-size: 18px;
+        .entreprisesList{
+            font-size: 22px;
+        }
+    }
+        .organisation{
+            font-size: 18px;
+            .organisationList{
+                font-size: 22px;
+                li{
+                    list-style-type: circle;
+                }
+            }
+            .fromLeft{
+                font-size: 18px;
+            }
+            .fromRight{
+                font-size: 18px;
+            }
+        }
+}

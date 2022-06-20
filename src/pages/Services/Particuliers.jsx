@@ -67,7 +67,9 @@ const Particuliers = () => {
             <h2 className='h2title'>Le temps vous manque ? </h2>
             <div className="iconMedit">
                 <h2 className='h2titleIcon'> Délèguez ! </h2>
-                <img className='yogaSuperpose' src={deleguez} alt="" />
+                {/* <div className="yogaSuperpose"> */}
+                    <img className="yogaSuperpose" src={deleguez} alt="" />
+                {/* </div> */}
             </div>
             <ul className='particuliersListe'>
                 <li>Lettres personnelles, professionnelles.</li>
