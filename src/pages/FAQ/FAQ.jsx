@@ -100,7 +100,7 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
 
     return (
         <div className='FAQ'>
-            <h1>D'autres questions ? N'hesitez pas à me <Link onClick={handleLienClick} to={'/contact'}>contacter.</Link></h1>
+            <h1>D'autres questions ? <Link onClick={handleLienClick} to={'/contact'}>contactez</Link> moi.</h1>
             <div className="avantage">
                     <h3 className='titleOne'>Quels sont les avantages d'une secretaire indépendante ?</h3>
                 <div className='flexAvantage'>

@@ -40,7 +40,7 @@ const CardTxt = () => {
             <div className="cardListTxt">
                 <h2>Une assitante indépendante ?</h2>
                 <ul>
-                    <li className='slideFromLeft'>Elle travaille à son compte pour differebts clients, souvent à distance.</li>
+                    <li className='slideFromLeft'>Elle travaille à son compte pour differents clients, souvent à distance.</li>
                     <li className='slideFromLeft'>Elle effectue souvent le même travail qu'un salarié : <br></br> secretariat et gestion administrative.</li>
                     <li className='slideFromLeft'>Pas de salaire mais une facture de prestation de service.</li>
                 </ul>
