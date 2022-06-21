@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 // import icones
 import { FaInstagram, FaFacebook } from "react-icons/fa";
@@ -18,8 +19,8 @@ const Footer = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
 
     return (
         <footer className='footer'>
-            <div className='rgpd'><Link to={"/rgpd"}>Mention légale - CGV et RGPD</Link></div>
-            <div className='reseauSociaux'><FaInstagram /><FaFacebook /><Link onClick={handleLienClick} className='mail' to={'/contact'}><RiMailSendLine /></Link></div>
+            <div className='rgpd'><Link to={"/rgpd#ancreRGPD"}>Mention légale - CGV et RGPD</Link></div>
+            <div className='reseauSociaux'><FaInstagram /><FaFacebook /><Link onClick={handleLienClick} className='mail' to={'/contact#ancreContact'}><RiMailSendLine /></Link></div>
         </footer>
     );
 };

@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
 import image from '../../imageImport/cochon_euro.jpg'
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
@@ -58,11 +59,11 @@ const Tarifs = () => {
                     <div onMouseLeave={handleLeave10} onMouseEnter={handleEnter10} className="bullePrix prix10">{prix10}</div>
                     <div onMouseLeave={handleLeave15} onMouseEnter={handleEnter15} className="bullePrix prix15">{prix15}</div>
                 </div>
-                <h4 className="devis">Devis personnalisé</h4>
+                <h2 className="devis"><Link to={'/contact#ancreContact'}>Devis personnalisé</Link></h2>
             </div>
-            <h4 className="tva">Tarifs assujetis à la TVA</h4>
+            {/* <h4 className="tva">Tarifs assujetis à la TVA</h4> */}
             <div className="prestation">
-                <h4 className='title'>Détails des prestations :</h4>
+                <h3 className='title'>Détails des prestations :</h3>
                 <ul className="prestaList">
                     <li>Déplacements : Frais kilometriques et temps de trajet facturés en fonction du barème en vigueur.</li>
                     <li>Toute heure entamée est due.</li>

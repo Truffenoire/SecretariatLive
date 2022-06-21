@@ -13,11 +13,11 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
 
     // let navigate = useNavigate() 
-    const [txtFacture, setTxtFacture] = useState('')
+    // const [txtFacture, setTxtFacture] = useState('')
 
-    const handleFacture = () => {
-        setTxtFacture(`Nous convenons ensemble en visioconférence ou par téléphone de vos besoin, je vous envoie le devis que vous me retournez signé. À la fin de la mission, je vous fais parvenir ma facture, réglable par virement bancaire ou paypal à réception.`)
-    }
+    // const handleFacture = () => {
+    //     setTxtFacture(`Nous convenons ensemble en visioconférence ou par téléphone de vos besoin, je vous envoie le devis que vous me retournez signé. À la fin de la mission, je vous fais parvenir ma facture, réglable par virement bancaire ou paypal à réception.`)
+    // }
     const handleLienClick =  async (e) => {
         setService('hoverA')
         setTarifs('hoverA')
@@ -100,7 +100,7 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
 
     return (
         <div className='FAQ'>
-            <h1>D'autres questions ? <Link onClick={handleLienClick} to={'/contact'}>contactez</Link> moi.</h1>
+            <h1>D'autres questions ? <Link onClick={handleLienClick} to={'/contact'}>Contactez</Link> moi.</h1>
             <div className="avantage">
                     <h3 className='titleOne'>Quels sont les avantages d'une secretaire indépendante ?</h3>
                 <div className='flexAvantage'>
@@ -121,8 +121,8 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
                 <p className="opaqueClick">Vous l'aurez remarqué ! Chaque organisme ou entreprise dématerialise aujourd'hui certaines de ses fonctions. Grâce au télétravail et au developpement des technologie, vous pourrez choisir de travailler à distane afin de gagner en rapidité et en temps. Je m'adapte à vos connaissances et vos habitudes. La plupart de mes clients communiquent avec moi via differente application : What's App, télégram, Zoom, mails, téléphone, cloud... Afin de partager instentanement des documents et vos demandes.</p>
             </div>
             <div className="facturation">
-                <h2 className="titleClick" onClick={handleFacture}>Comment se passe la facturation ?</h2>
-                <p className="opaqueClick">{txtFacture}</p>
+                <h2 className="titleClick">Comment se passe la facturation ?</h2>
+                <p className="opaqueClick">Nous convenons ensemble en visioconférence ou par téléphone de vos besoin, je vous envoie le devis que vous me retournez signé. À la fin de la mission, je vous fais parvenir ma facture, réglable par virement bancaire ou paypal à réception.</p>
             </div>
         </div>
     );

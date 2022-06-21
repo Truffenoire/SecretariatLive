@@ -72,16 +72,16 @@ const Particuliers = () => {
                 {/* </div> */}
             </div>
             <ul className='particuliersListe'>
-                <li>Lettres personnelles, professionnelles.</li>
-                <li>CV, lettre de motivation, démission, disponibilité.</li>
+                <li>Lettres personnelles, professionnelles</li>
+                <li>CV, lettre de motivation, démission, disponibilité</li>
                 <li>Courriers et gestion des dossiers CAF, securité sociale, pôle emploi, lettre de réclamation...</li>
-                <li>Recommandés ou envoi de courriers.</li>
-                <li>Changement d'adresse.</li>
-                <li>Recherches sur internet.</li>
-                <li>Organisation de votre boîte mail.</li>
-                <li>Commandes de cadeaux (fête des mères, anniverssaire etc...).</li>
-                <li>Réservation de vos vacances ou de vos évenements privés.</li>
-                <li>Tri optimal / système d'archivage / classement informatique.</li>
+                <li>Recommandés ou envoi de courriers</li>
+                <li>Changement d'adresse</li>
+                <li>Recherches sur internet</li>
+                <li>Organisation de votre boîte mail</li>
+                <li>Commandes de cadeaux (fête des mères, anniverssaire etc...)</li>
+                <li>Réservation de vos vacances ou de vos évenements privés</li>
+                <li>Tri optimal / système d'archivage / classement informatique</li>
                 <li>Etc...</li>
             </ul>
         </div>

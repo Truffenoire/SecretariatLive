@@ -31,8 +31,11 @@
         }
     }
     .devis {
-        margin: 1rem;
-        font-size: 18px;
+        margin: 4rem;
+        font-size: 20px;
+        a{
+            text-decoration: none;
+        }
     }
     .tva {
         margin: 2rem;
@@ -44,8 +47,8 @@
         margin: 8rem;
         padding-bottom: 159px;
         text-align: left;
-        font-size: 18px;
         .title {
+            font-size: 24px;
             margin: 1rem;
         }
         .prestaList {

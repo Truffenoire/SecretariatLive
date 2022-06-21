@@ -43,7 +43,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='contact'>
+        <div id='ancreContact' className='contact'>
             <h2 className='title'>Une question, un projet ou besoin d'une secretaire indépendante au plus vite ?</h2>
             <div className="linkContact">
                 <div className="containImg">

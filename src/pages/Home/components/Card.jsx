@@ -104,13 +104,13 @@ const Card = () => {
         <>
         <div className="bgCard" ref={cardsRef}>
             <div className='card'>
+                <div className='flex'><div className='icon'><GiPiggyBank /></div><div className="txt">Sans frais liés à l'embauche</div></div>
+            </div>
+            <div className='card'>
                 <div className='flex'><div className='icon'><CgSandClock /></div><div className="txt">Sans engagement, ponctuellement ou régulièrement</div></div>
             </div>
             <div className='card'>
                 <div className='flex'><div className='icon'><AiOutlineWifi /></div><div className="txt">À distance ou de son domicile</div></div>
-            </div>
-            <div className='card'>
-                <div className='flex'><div className='icon'><GiPiggyBank /></div><div className="txt">Sans frais liés à l'embauche</div></div>
             </div>
         </div>
             <div className='twoCard'>

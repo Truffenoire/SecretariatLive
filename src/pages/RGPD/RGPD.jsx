@@ -4,19 +4,19 @@ const RGPD = () => {
     return (
         <div className='rgpd'>
             <div className="protection">
-                <h2>PROTECTION DES DONNÉES</h2>
+                <h2 id='ancreRGPD'>PROTECTION DES DONNÉES</h2>
                 <ol className='listOrganisé'>
                     <li>Site concerné</li>
-                    <p>Secretariat Live !</p>
+                    <p>Secretariat Live</p>
                     <li>Utilistation des données personnelles renseignés</li>
                     <div className="rgpdContact">
                         <h4>- Formulaire de contact</h4>
                         <p>Les informations (nom, adresse email, et message) envoyées via le formulaire de la page contact sont utilisées dans l’unique but de répondre aux messages envoyés par les utilisateurs. Elles ne sauraient être utilisées de quelque autre manière.</p>
                     </div>
                     <li>transmission de vos données personnelles</li>
-                    <p>Aucune information collectée via le formulaire de la page contact n’est transmise à des fins commerciales à des tiers. Les informations (nom, adresse email, et message) sont envoyées à l'adresse mail de Secretariat Live !, ceci permet au site Secretariat Live ! de consulter et répondre aux messages envoyés. Les messages reçus peuvent être stockés pour une durée indéterminée tant que le site Secretariat Live ! est opérationnel.</p>
+                    <p>Aucune information collectée via le formulaire de la page contact n’est transmise à des fins commerciales à des tiers. Les informations (nom, adresse email, et message) sont envoyées à l'adresse mail de Secretariat Live, ceci permet au site Secretariat Live de consulter et répondre aux messages envoyés. Les messages reçus peuvent être stockés pour une durée indéterminée tant que le site Secretariat Live est opérationnel.</p>
                     <li>durée de stockage de vos données personnelles</li>
-                    <p>Si vous envoyez un email via le formulaire contact, le site Secretariat Live ! s'engage à conserver votre adresse le temps necessaire à vous répondre</p>
+                    <p>Si vous envoyez un email via le formulaire contact, le site Secretariat Live s'engage à conserver votre adresse le temps necessaire à vous répondre</p>
                     <li>informations de contact</li>
                     <p>Pour toute information relative à vos données personnelles, vous pouvez envoyer un message via ce formulaire de contact.</p>
                 </ol>
@@ -62,7 +62,7 @@ const RGPD = () => {
                         </div>
                         <div>
                             <h5>- Clause résolutoire</h5>
-                            <p>Si dans les quinze jours qui suivent la mise en œuvre de la clause « Retard de paiement », le client ne s’est pas acquitté des sommes restant dues, la vente sera résolue de plein droit et pourra ouvrir droit à l’allocation de dommages et intérêts au profit de Secretariat Live !.</p>
+                            <p>Si dans les quinze jours qui suivent la mise en œuvre de la clause « Retard de paiement », le client ne s’est pas acquitté des sommes restant dues, la vente sera résolue de plein droit et pourra ouvrir droit à l’allocation de dommages et intérêts au profit de Secretariat Live.</p>
                         </div>
                     </div>
                     <li>Confidentialité</li>
