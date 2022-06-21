@@ -3,18 +3,23 @@
     justify-content: space-around;
     align-items: center;
     height: 65px;
+    a{
+        text-decoration: none;
+    }
     ul{
         list-style-type: none;
     }
 
 }
-@media (max-width:320px) {
+@media screen and (min-width:300px) and (max-width:375px){
     .bannerTop{
         .position{
             font-size: 14px;
         }
         ul{
             font-size: 14px;
+            flex-grow: 1;
+            text-align: end;
         }
     }
 }

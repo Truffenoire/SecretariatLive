@@ -63,6 +63,11 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
     const handleClose = (e) => {
         setSousMenu(0)
     }
+    // const handleUrl = (e) => {
+        let url = window.location.href
+        const location = url.split('/')
+        console.log(location[3]);
+    // }
 
     return (
         <div className='header'>
@@ -72,7 +77,7 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
             <nav className='navBar' >
                 <ul>
                     <Link className={accueil}  onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
-                    <Link className={service} onMouseLeave={handleServiceLeave} onMouseEnter={handleService} to={"/SecretariatLive"}>Service</Link>
+                    <Link className={service} onMouseLeave={handleServiceLeave} onMouseEnter={handleService} to={location[3]}>Service</Link>
                     {sousMenu === 1 ?
                         <div onMouseLeave={handleClose} className='sousMenu'>
                             <Link onMouseLeave={handleServiceLeave} onMouseEnter={handleService} onClick={handleClose} to={"/entreprises"}>Entreprises</Link>
