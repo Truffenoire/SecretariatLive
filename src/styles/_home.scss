@@ -41,8 +41,17 @@
     }
 }
 
-@media (max-width:767px) {
+@media screen and (min-width:767px) and (max-width:1024px) {
     .home {
+        .textAnimContain{
+            flex-direction: column-reverse;
+            .backImg{
+                width: 100%;
+            }
+            .text{
+                width: 100%;
+            }
+        }
         .bgCard {
             flex-direction: column;
         }
