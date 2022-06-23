@@ -44,7 +44,7 @@ const Services = () => {
                 <li>Factures, devis, bon de commandes</li>
                 <li>Relance d'impayés</li>
                 <li>Gestion des mails</li>
-                <li>Tableau de suivi des dépenses.</li>
+                <li>Tableau de suivi des dépenses</li>
                 <li>Établissement des comptes en ligne (edf, eau, assurances etc...)</li>
                 <li>Interface avec la comptabilité</li>
                 <li>Tableaux ecxel simples</li>

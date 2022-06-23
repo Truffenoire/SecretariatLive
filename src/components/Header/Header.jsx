@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
 
+import logo from '../../imageImport/logo.png'
+
 
 const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, contact, setContact, faq, setFaq, sousMenu, setSousMenu} ) => {
 
@@ -72,12 +74,13 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
     return (
         <div className='header'>
             <div className='logo'>
-                <img src="LogoSiteBlancG.svg" alt="Logo secretariat Live" />
+                <img src={logo} alt="Logo secretariat Live" />
             </div>
             <nav className='navBar' >
                 <ul>
                     <Link className={accueil}  onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
-                    <Link className={service} onMouseLeave={handleServiceLeave} onMouseEnter={handleService} to={location[3]}>Services</Link>
+                    {/* J'ai enlever le onMouseLeave qui faisait disparaitre le menu avant de pouvoir entrer dedans */}
+                    <Link className={service} onMouseEnter={handleService} to={location[3]}>Services</Link>
                     {sousMenu === 1 ?
                         <div onMouseLeave={handleClose} className='sousMenu'>
                             <Link onMouseLeave={handleServiceLeave} onMouseEnter={handleService} onClick={handleClose} to={"/entreprises"}>Entreprises</Link>

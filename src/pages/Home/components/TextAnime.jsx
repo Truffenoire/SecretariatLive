@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap'
+import imgTxt from '../../../imageImport/imgTextAnim.jpeg'
 
 const Text = () => {
 
@@ -10,23 +11,28 @@ const Text = () => {
         // console.log(barre);
         const TLLetters = gsap.timeline({ repeat: -1, delay: 0.5 });
         TLLetters
-        .from(wordsRef.current.childNodes[0].childNodes, {display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 1})
-        .to(wordsRef.current.childNodes[0].childNodes, {display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0})
+            .from(wordsRef.current.childNodes[0].childNodes, { display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 1 })
+            .to(wordsRef.current.childNodes[0].childNodes, { display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0 })
 
-        .from(wordsRef.current.childNodes[1].childNodes, {display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5})
-        .to(wordsRef.current.childNodes[1].childNodes, {display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0})
+            .from(wordsRef.current.childNodes[1].childNodes, { display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5 })
+            .to(wordsRef.current.childNodes[1].childNodes, { display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0 })
 
-        .from(wordsRef.current.childNodes[2].childNodes, {display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5})
-        .to(wordsRef.current.childNodes[2].childNodes, {display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0})
+            .from(wordsRef.current.childNodes[2].childNodes, { display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5 })
+            .to(wordsRef.current.childNodes[2].childNodes, { display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0 })
 
-        .from(wordsRef.current.childNodes[3].childNodes, {display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5})
-        .to(wordsRef.current.childNodes[3].childNodes, {display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0})
+            .from(wordsRef.current.childNodes[3].childNodes, { display: 'none', backgroundColor: "transparent", stagger: 0.3, delay: 0.5 })
+            .to(wordsRef.current.childNodes[3].childNodes, { display: 'none', backgroundColor: '#C7AAA3', color: "white", stagger: 0 })
 
     }, [])
 
     return (
-        <div>
-            <div className="text">Délèguez votre gestion administrative à une secretaire indépendante <br /> afin de gagner en :
+        <div className='textAnimContain'>
+            <div className='backImg'>
+                <img src={imgTxt} alt="" />
+            </div>
+            <div className="text">
+                <h4>Petites et moyennes entreprises</h4>
+                Délèguez votre gestion administrative à une assistante indépendante <br /> afin de gagner en :
                 <span className='wordContain' ref={wordsRef}>
                     <span className="frais">
                         <span>F</span>

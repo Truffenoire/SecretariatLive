@@ -1,31 +1,26 @@
 .header{
-    background: black fixed;
     display: flex; 
-    // height: 100px;
+    height: 200px;
     justify-content: space-around;
     align-items: center;
+    text-transform: uppercase;
     .selected{
         text-decoration: none;
-        font-size: 20px;
-        color: white;
         padding: 10px 15px;
-        border-bottom: 3px solid white;   
     }
-    // .parentMenu{
-    //     position: relative; 
-    // }
     .sousMenu{
         display: flex;
         float: left;
-        flex-direction: column;
+        // flex-direction: column;
         position: absolute;
-        background-color: black;
-        right: 30%; 
-        top:110px;
+        // background-color: black;
+        border: 2px solid #E2C2B3;
+        // right: 30%; 
+        top:235px;
         a{  
             text-decoration: none;
             font-size: 20px; 
-            color: white;
+            color: #687477;
             padding: 10px 15px;
             &:hover{
                 text-shadow: 4px 3px 6px white;
@@ -34,32 +29,50 @@
     }
     .logo{
         img{  
-            width: 150px; 
+            // width: 630px; 
+            overflow: hidden;
             margin-top: 25px;  
         }
     }
     .navBar{
        ul{
            display: flex;
-        //    flex-direction: column;
+           .sousMenu{
+            animation: 0.3s slideFromBot;
+           }
+        a{
+            color: #687477;
+            font-weight: 800;
+            font-size: 30px;
+            &:hover{
+                color: #E2C2B3; 
+            }  
+        }
+        a.selected{
+            color: #E2C2B3; 
+        }
          a.hoverA{
             text-decoration: none;
-            font-size: 20px;
-            color: white;
+            font-size: 30px;
+            font-weight: 800;
+            color: #687477;
             padding: 10px 15px;
             &:hover{
-                    border-bottom: 3px solid white;
+                    color: #E2C2B3; 
                 }  
         }
     } 
     }
-    
 }
+@keyframes slideFromBot {
+    from { transform: translateY(30px); }
+    to   { transform: translateY(0px); }
+  }
 @media (max-width:1024px) {
     .header{
-        .sousMenu{
-            right: 32%;
-        }
+        // .sousMenu{
+        //     right: 32%;
+        // }
     }
 }
 @media (max-width:768px) {

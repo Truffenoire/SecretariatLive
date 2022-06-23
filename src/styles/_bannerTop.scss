@@ -2,17 +2,44 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 65px;
+    height: 110px;
+    background-color: #687477;
+    .position{
+        color: #E2C2B3;
+        z-index: 1;
+        width: 25%;
+        font-size: 20px;
+        font-weight: 600;
+        .growUP{
+            font-size: 24px;
+        }
+        a{
+            &:hover{
+                animation: scale-up-center 0.25s ease-in-out;
+            }
+        }
+    }
     a{
         text-decoration: none;
+        color: #E2C2B3;
     }
     ul{
         list-style-type: none;
+        width: 25%;
         li{
             display: flex;
-            // gap: 5%;
+            font-size: 20px;
+            color: #E2C2B3;
             align-items: center;
             font-weight: 600;
+            #growUP{
+                font-size: 24px;
+            }
+            a{
+                &:hover{
+                    animation: scale-up-center 0.25s ease-in-out;
+                }
+            }
             svg{
                 font-size: 20px;
                 margin-right: 2%;
@@ -21,6 +48,14 @@
     }
 
 }
+@keyframes scale-up-center {
+    0% {
+      font-size: 20px;
+    }
+    100% {
+      font-size: 24px;
+    }
+  }
 @media screen and (min-width:300px) and (max-width:375px){
     .bannerTop{
         .position{

@@ -24,10 +24,12 @@ function App() {
     const [contact, setContact] = useState('hoverA')
     const [faq, setFaq] = useState('hoverA')
     const [sousMenu, setSousMenu] = useState(0)
+    const [growUp, setGrowUp] = useState('grow')
+    const [growUpTwo, setGrowUpTwo] = useState('essai')
 
   return (
     <div className="App">
-      <BannerTop />
+      <BannerTop growUp={growUp} setGrowUp={setGrowUp} growUptwo={growUpTwo} setGrowUpTwo={setGrowUpTwo} />
       <Header accueil={accueil} setAccueil={setAccueil} service={service} setService={setService} tarifs={tarifs} setTarifs={setTarifs}
         contact={contact} setContact={setContact} faq={faq} setFaq={setFaq} sousMenu={sousMenu} setSousMenu={setSousMenu} />
       <Routes>
