@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap'
-import imgTxt from '../../../imageImport/imgTextAnim.jpeg'
+import imgTxt from '../../../imageImport/imgTextAnim.png'
 
 const Text = () => {
 
