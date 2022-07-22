@@ -1,14 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const RGPD = () => {
     return (
         <div className='rgpd'>
+            <div id='ancreRGPD' className="bannerRgpd">
+                <Link to={"/SecretariatLive"}>Accueil </Link> <span>{'>'} Conditions générales</span>
+            </div>
             <div className="protection">
-                <h2 id='ancreRGPD'>PROTECTION DES DONNÉES</h2>
+                <h2>PROTECTION DES DONNÉES</h2>
                 <ol className='listOrganisé'>
                     <li>Site concerné</li>
                     <p>Secretariat Live</p>
-                    <li>Utilistation des données personnelles renseignés</li>
+                    <div>Numéro Siret: 89427705200011</div>
+                    <div>Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, article 6, III, B, nous vous informons que la poursuite de la navigation sur ce site vaut acceptation sans réserve des dispositions et conditions d’utilisation qui suivent.
+                        La version actuellement en ligne de ces conditions d’utilisation est la seule opposable pendant toute la durée d’utilisation du site et jusqu’à ce qu’une nouvelle version la remplace.
+                        Nous nous réservons la possibilité de modifier celles-ci et demandons par conséquent à l’utilisateur de s’y reporter régulièrement.
+                        Le Site (ci-après « le site»)www.………… est un service de la société Secretariat live immatriculée auprès de la chambre des métiers et l’artisanat sous le n° 89427705200011 ayant son siège social sis chemin des Barreliers 13720 Belcodène.</div>
+                    <div>Mail: secretariatlive13@gmail.com</div>
+                    <li>Utilisatation des données personnelles renseignées</li>
                     <div className="rgpdContact">
                         <h4>- Formulaire de contact</h4>
                         <p>Les informations (nom, adresse email, et message) envoyées via le formulaire de la page contact sont utilisées dans l’unique but de répondre aux messages envoyés par les utilisateurs. Elles ne sauraient être utilisées de quelque autre manière.</p>
@@ -18,7 +28,7 @@ const RGPD = () => {
                     <li>durée de stockage de vos données personnelles</li>
                     <p>Si vous envoyez un email via le formulaire contact, le site Secretariat Live s'engage à conserver votre adresse le temps necessaire à vous répondre</p>
                     <li>informations de contact</li>
-                    <p>Pour toute information relative à vos données personnelles, vous pouvez envoyer un message via ce formulaire de contact.</p>
+                    <p>Pour toute information relative à vos données personnelles, vous pouvez envoyer un message via ce <Link to={"/contact"}>formulaire de contact</Link>.</p>
                 </ol>
                 <h2>CONDITIONS GENERALES DE VENTE</h2>
                 <ol className="listOrganisé">

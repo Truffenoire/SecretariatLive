@@ -1,4 +1,7 @@
 import React, {useEffect} from 'react';
+import assistante from '../../../imageImport/assistante.jpeg'
+import economies from '../../../imageImport/why.jpeg'
+
 import {gsap} from 'gsap'
 import { ScrollTrigger} from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
@@ -37,15 +40,15 @@ const CardTxt = () => {
 
     return (
         <div className='cardTxt'>
+            <div className="border"><img src={assistante} alt="assistante" /></div>
             <div className="cardListTxt">
-                <h2>Une assitante indépendante ?</h2>
+                <h2>Une assistante indépendante ?</h2>
                 <ul>
                     <li className='slideFromLeft'>Elle travaille à son compte pour differents clients, souvent à distance.</li>
                     <li className='slideFromLeft'>Elle effectue souvent le même travail qu'un salarié : <br></br> secretariat et gestion administrative.</li>
                     <li className='slideFromLeft'>Pas de salaire mais une facture de prestation de service.</li>
                 </ul>
             </div>
-            <div className="border"></div>
             <div className="cardListTxt">
                 <h2 className='h2ListTwo'>Pourquoi ?</h2>
                 <ul>
@@ -55,6 +58,8 @@ const CardTxt = () => {
                     <li className='slideFromRight'>Combler l'absence de votre secrétaire en congés ou malade.</li>
                 </ul>
             </div>
+            <div className="border"><img src={economies} alt="economies" /></div>
+
         </div>
     );
 };

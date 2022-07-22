@@ -21,7 +21,7 @@ const Card = () => {
     useEffect(() => {
         gsap.fromTo(".card",
             {
-                x: -600, delay: 0.3, opacity: 0, keyframes: [{ x: 50, duration: 1 }, { x: 0, duration: 1 }], ease: "elastic.out(1, 0.3)"
+                x: -600, delay: 0.3, opacity: 0, keyframes: [{ x: 50, duration: 2 }, { x: 0, duration: 2 }], ease: "elastic.out(1, 0.3)"
             },
             {
                 x: 0, opacity: 1, keyframes: [{ x: -50, duration: 1 }, { x: 0, duration: 1 }], ease: "elastic.out(1, 0.3)",

@@ -4,7 +4,7 @@
     .bgCard{
         display: flex;
         // flex-direction: column;
-        padding: 3%;
+        padding: 12% 0;
     }
     .wordContain{
         color: #C7AAA3;
@@ -16,6 +16,7 @@
     .textAnimContain{
         display: flex;
         width: 100%;
+        margin-top: 50px;
         .backImg{
             width: 50%;
             img{

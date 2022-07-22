@@ -1,36 +1,59 @@
 .rgpd{
     margin: 50px 0; 
+    .bannerRgpd{
+        background-color: #687477;
+        height: 50px;
+        span{
+            color: #E2C2B3;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        a{
+            font-weight: 600;
+            line-height: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #E2C2B3;
+            padding-left: 100px;
+        }
+    }
     .protection{
             display: flex;
             flex-direction: column;
             align-items: center;
             h2{
-                margin: 15px;
-                align-self: flex-start;
+                margin: 50px;
+                padding-right: 300px;
+                font-size: 43px;
+                align-self: flex-end;
             }
             .listOrganisé{
-                max-width: 900px;
-                padding: 0 3%;
+                // max-width: 1000px;
+                padding: 0 5%;
                 display: flex; 
                 flex-direction: column;
+                div{
+                    font-size: 30px;
+                }
                 p{
                     line-height: 30px;
+                    font-size: 30px;
                 }
                 li{
-                    margin: 10px;
+                    margin: 20px;
                     font-weight: 800;
-                    font-size: 20px;
+                    font-size: 40px;
                 }
                 .reglement{
                     display: flex;
                     flex-wrap: wrap;
                     h5{
                         margin: 10px;
-                        font-size: 15px;
+                        font-size: 25px;
                     }
                     li{
                         font-weight: 300;
-                        font-size: 15px;
+                        font-size: 20px;
                     }
                     div{
                         width: 50%;  

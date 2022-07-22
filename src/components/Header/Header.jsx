@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
 
-import logo from '../../imageImport/logo.png'
+import logo from '../../imageImport/logoPetit.png'
 
 
 const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, contact, setContact, faq, setFaq, sousMenu, setSousMenu} ) => {

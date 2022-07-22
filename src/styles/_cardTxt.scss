@@ -2,22 +2,37 @@
     display: flex;
     padding: 25px;
     justify-content: space-around;
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,126,126,1) 52%, rgba(255,255,255,1) 100%);
+    flex-wrap: wrap;
+    // background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,126,126,1) 52%, rgba(255,255,255,1) 100%);
     .border{
-        border-left: 2px solid black;
-        margin: 0 1%;
+        background-color: red;
+        width: 50%;
+        height: 600px;
+        img{
+            object-fit: cover;
+            height: 600px;
+            width: 100%;
+        }
     }
     .cardListTxt {
+        text-align: center;
+        font-weight: 800;
         margin: 50px 0;
         font-size: 25px;
+        width: 50%;
         h2{
-            font-size: 38px;
-            text-shadow: 6px 4px 8px black;
+            color: #E2C2B3;
+            font-size: 60px;
+            // text-shadow: 6px 4px 8px #E2C2B3;
+            text-shadow: 6px 4px 8px #edc0ab;
         }
         ul{
-            margin: 25px;
+            color: #403234;
+            list-style-type: none;
+            margin: 48px;
         }
         li{
+            font-size: 34px;
             margin: 15px 0;
         }
     }

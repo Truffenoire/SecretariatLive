@@ -1,45 +1,61 @@
 .card{
-    background-color: #687477; ;
+    // background-color: #687477;
+    // background-image: linear-gradient(to right bottom, #585e60, #727779, #8e9292, #aaadad, #c8c9c9);
+    background-image: linear-gradient(to right bottom, #e2c2b3, #b89a92, #8e7572, #665252, #403234);
     display: flex;
     // flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     align-self: center;
-    padding: 10px;
     box-shadow: 4px 3px 6px #F7F3F5; 
     border-radius: 15px;
-    // height: 200px;
-    width: 35%;
+    height: 347px;
     margin: 3%;
     .flex{
         color: white;  
         display: flex;
+        flex-direction: column;
+        gap: 25px;
         align-items: center;
         .icon{
-            padding-right: 30px;
-            font-size: 35px;
+            // padding-right: 30px;
+            font-size: 90px;
         }
         .txt{
           line-height: 35px;
+          font-size: 25px;
+          font-weight: 800;
+          text-align: center;
         }
     }
 }
 .twoCard{
   display: flex;
-  margin: 25px;
+  padding-bottom: 12%;
   justify-content: space-around;
   .twoFlex{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 25px;
     padding: 1rem; 
     color: white;
-    background-color: #687477; 
+    // background-color: #687477; 
+    // background-image: linear-gradient(to right bottom, #585e60, #727779, #8e9292, #aaadad, #c8c9c9); 
+    background-image: linear-gradient(to right bottom, #e2c2b3, #b89a92, #8e7572, #665252, #403234);
     box-shadow: 4px 3px 6px #F7F3F5;
     border-radius: 20px;
     font-size: 20px;
+    height: 300px;
+    width: 347px;
     .twoCardIcon{
-      padding-right: 15px;
+      font-size: 90px;
+    }
+    .twoCardTxt{
+      font-weight: 800;
+      font-size: 25px;
     }
   }
 }

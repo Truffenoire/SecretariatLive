@@ -19,7 +19,7 @@ const Footer = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
 
     return (
         <footer className='footer'>
-            <div className='rgpd'><Link to={"/rgpd#ancreRGPD"}>Mention légale - CGV et RGPD</Link></div>
+            <div className='rgpd'><Link to={"/rgpd#ancreRGPD"}>Mentions légales - CGV et RGPD</Link></div>
             <div className='reseauSociaux'><FaInstagram /><FaFacebook /><Link onClick={handleLienClick} className='mail' to={'/contact#ancreContact'}><RiMailSendLine /></Link></div>
         </footer>
     );
