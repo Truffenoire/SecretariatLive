@@ -1,3 +1,5 @@
+@import './colors';
+
 .header {
     display: flex;
     height: 200px;
@@ -16,14 +18,14 @@
         // flex-direction: column;
         position: absolute;
         // background-color: black;
-        border: 2px solid #E2C2B3;
+        border: 2px solid $color-1;
         // right: 30%; 
-        top: 235px;
+        top: 235px;  
 
         a {
             text-decoration: none;
             font-size: 20px;
-            color: #687477;
+            color: $color-2;
             padding: 10px 15px;
 
             &:hover {
@@ -34,9 +36,7 @@
 
     .logo {
         img {
-            // width: 630px; 
             overflow: hidden;
-            margin-top: 25px;
         }
     }
 
@@ -49,28 +49,28 @@
             }
 
             a {
-                color: #687477;
+                color: $color-2;
                 font-weight: 800;
                 font-size: 30px;
 
                 &:hover {
-                    color: #E2C2B3;
+                    color: $color-1; 
                 }
             }
 
             a.selected {
-                color: #E2C2B3;
+                color: $color-1;
             }
 
             a.hoverA {
                 text-decoration: none;
                 font-size: 30px;
                 font-weight: 800;
-                color: #687477;
+                color: $color-2;
                 padding: 10px 15px;
 
                 &:hover {
-                    color: #E2C2B3;
+                    color: $color-1;
                 }
             }
         }

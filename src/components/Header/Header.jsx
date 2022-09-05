@@ -6,14 +6,6 @@ import logo from '../../imageImport/logoPetit.png'
 
 const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, contact, setContact, faq, setFaq, sousMenu, setSousMenu} ) => {
 
-
-    // const [accueil, setAccueil] = useState('selected')
-    // const [service, setService] = useState('hoverA')
-    // const [tarifs, setTarifs] = useState('hoverA')
-    // const [contact, setContact] = useState('hoverA')
-    // const [faq, setFaq] = useState('hoverA')
-    // const [sousMenu, setSousMenu] = useState(0)
-
     const handleAccueil = (e) => {
         setService('hoverA')
         setTarifs('hoverA')
@@ -22,22 +14,11 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
         setAccueil('selected')
         setSousMenu(0)
     }
-    const handleService = (e) => {
+
+    const handleMenu = (e) => {
         setSousMenu(1)
-        setService('selected')
-        setTarifs('hoverA')
-        setContact('hoverA')
-        setFaq('hoverA')
-        setAccueil('hoverA')
     }
-    const handleServiceLeave = (e) => {
-        setSousMenu(0)
-        setService('hoverA')
-        setTarifs('hoverA')
-        setContact('hoverA')
-        setFaq('hoverA')
-        setAccueil('selected')
-    }
+
     const handleTarifs = (e) => {
         setService('hoverA')
         setTarifs('selected')
@@ -65,6 +46,14 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
     const handleClose = (e) => {
         setSousMenu(0)
     }
+    const handleCloseSousMenu = (e) => {
+        setSousMenu(0)
+        setService('selected')
+        setTarifs('hoverA')
+        setContact('hoverA')
+        setFaq('hoverA')
+        setAccueil('hoverA')
+    }
     // const handleUrl = (e) => {
         let url = window.location.href
         const location = url.split('/')
@@ -78,23 +67,21 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
             </div>
             <nav className='navBar' >
                 <ul>
-                    <Link className={accueil}  onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
-                    {/* J'ai enlever le onMouseLeave qui faisait disparaitre le menu avant de pouvoir entrer dedans */}
-                    <Link className={service} onMouseEnter={handleService} to={location[3]}>Services</Link>
+                    <Link className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
+                    <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link>
+                    
                     {sousMenu === 1 ?
-                        <div onMouseLeave={handleClose} className='sousMenu'>
-                            <Link onMouseLeave={handleServiceLeave} onMouseEnter={handleService} onClick={handleClose} to={"/entreprises"}>Entreprises</Link>
-                            <Link onMouseLeave={handleServiceLeave} onMouseEnter={handleService} onClick={handleClose} to={"particuliers"}>Particuliers</Link>
+                        <div onMouseLeave={handleClose} onMouseEnter={handleMenu} className='sousMenu'>
+                            <Link onClick={handleCloseSousMenu} to={"/entreprises"}>Entreprises</Link>
+                            <Link onClick={handleCloseSousMenu} to={"particuliers"}>Particuliers</Link>
                         </div>
                         :
                         null
                     }
-                    <Link className={tarifs} onClick={handleTarifs} to={"/tarifs"}>Tarifs</Link>
-                    <Link className={contact} onClick={handleContact} to={"/contact"}>Contact</Link>
-                    <Link className={faq} 
                     
-                    onClick={handleFAQ} to={"/FAQ"}>FAQ
-                    </Link>
+                    <Link className={tarifs} onMouseEnter={handleClose} onClick={handleTarifs} to={"/tarifs"}>Tarifs</Link>
+                    <Link className={contact} onMouseEnter={handleClose} onClick={handleContact} to={"/contact"}>Contact</Link>
+                    <Link className={faq} onMouseEnter={handleClose} onClick={handleFAQ} to={"/FAQ"}>FAQ</Link>      
                 </ul>
             </nav>
 

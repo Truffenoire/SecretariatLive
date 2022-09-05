@@ -1,17 +1,19 @@
 .card{
     // background-color: #687477;
-    // background-image: linear-gradient(to right bottom, #585e60, #727779, #8e9292, #aaadad, #c8c9c9);
-    background-image: linear-gradient(to right bottom, #e2c2b3, #b89a92, #8e7572, #665252, #403234);
+    // background-image: linear-gradient(to right bottom, #e2c2b3, #b89a92, #8e7572, #665252, #403234);
+    background-image: url("/imageImport/blocNote.png");  
+    background-position: center;
+    background-size: cover;  
     display: flex;
     // flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
     align-self: center;
-    box-shadow: 4px 3px 6px #F7F3F5; 
+    box-shadow: 4px 3px 6px #F7F3F5;  
     border-radius: 15px;
-    height: 347px;
-    margin: 3%;
+    height: 210px;
+    margin: 5%;
     .flex{
         color: white;  
         display: flex;
@@ -48,7 +50,7 @@
     box-shadow: 4px 3px 6px #F7F3F5;
     border-radius: 20px;
     font-size: 20px;
-    height: 300px;
+    height: 210px;
     width: 347px;
     .twoCardIcon{
       font-size: 90px;

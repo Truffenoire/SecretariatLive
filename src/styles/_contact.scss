@@ -1,13 +1,15 @@
+@import './colors';
+
 .contact {
     display: flex;
     flex-direction: column;
     .title {
-        margin: 2rem;
+        margin: 4rem;
     }
     .containImgMail {
         width: 45%;
         margin: 2rem;
-        background-color: #f5dad0;
+        background-color: $color-2;
 
         img {
             width: 100%;
@@ -17,9 +19,9 @@
         }
     }
     .linkContact {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         gap: 10%; 
 
         .containTxt {
@@ -50,7 +52,7 @@
         .containImg {
             width: 45%;
             margin: 2rem;
-            background-color: #f5dad0;
+            background-color: $color-1;
 
             img {
                 width: 100%;
@@ -63,7 +65,7 @@
     .formContainer {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around; 
 
         .containForm {
             width: 40%;
@@ -98,7 +100,7 @@
                 font-size: 14px;
                 margin: 0.8rem;
                 padding: 10px; 
-                background-color: #00aa9c;
+                background-color: $color-1;
                 color: white;
                 border-radius: 18px;
                 border: none;

@@ -1,3 +1,5 @@
+@import './colors';
+
 .cardTxt{
     display: flex;
     padding: 25px;
@@ -21,10 +23,9 @@
         font-size: 25px;
         width: 50%;
         h2{
-            color: #E2C2B3;
+            color: $color-1;
             font-size: 60px;
-            // text-shadow: 6px 4px 8px #E2C2B3;
-            text-shadow: 6px 4px 8px #edc0ab;
+            text-shadow: 6px 4px 8px $color-1_1; 
         }
         ul{
             color: #403234;

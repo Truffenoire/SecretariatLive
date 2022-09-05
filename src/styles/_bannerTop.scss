@@ -1,11 +1,15 @@
-.bannerTop{
+@import './colors';
+ 
+.bannerTop{  
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 110px;
-    background-color: #687477;
+    background-color: $color-2;
     .position{
-        color: #E2C2B3;
+        display: flex;
+        align-items: center;
+        color: $color-3;
         z-index: 1;
         width: 25%;
         font-size: 20px;
@@ -21,7 +25,7 @@
     }
     a{
         text-decoration: none;
-        // color: #E2C2B3;
+        // color: $color-1;
         color: white;
     }
     ul{
@@ -29,8 +33,9 @@
         width: 25%;
         li{
             display: flex;
+            height: 25px;
             font-size: 20px;
-            color: #E2C2B3;
+            color: $color-3;
             align-items: center;
             font-weight: 600;
             .phone{

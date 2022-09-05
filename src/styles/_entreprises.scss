@@ -1,3 +1,5 @@
+@import './colors';
+
 .entreprises{
     background-image: url("/imageImport/imgEntreprise.png");
     background-size: cover;
@@ -40,8 +42,8 @@
         }
     }
     .fromLeft{
-        background-color: #00aa9c;
-        box-shadow: 4px 3px 6px #166c65; 
+        background-color: $color-1;
+        box-shadow: 4px 3px 6px $color-1_1; 
         padding: 0.6rem;
         color: white;
         font-size: 24px; 
@@ -49,8 +51,8 @@
         margin: 15px 0; 
     }
     .fromRight{
-        background-color: #00aa9c;
-        box-shadow: 4px 3px 6px #166c65; 
+        background-color: $color-3; 
+        box-shadow: 4px 3px 6px $color-2; 
         padding: 0.6rem;
         color: white;
         font-size: 24px; 

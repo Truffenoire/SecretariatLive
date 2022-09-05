@@ -52,9 +52,9 @@ const CardTxt = () => {
             <div className="cardListTxt">
                 <h2 className='h2ListTwo'>Pourquoi ?</h2>
                 <ul>
-                    <li className='slideFromRight'>Terminé les frais et charges salariale.</li>
+                    <li className='slideFromRight'>Terminé les frais et charges salariales.</li>
                     <li className='slideFromRight'>Vous n'êtes pas engagés par un contrat de travail.</li>
-                    <li className='slideFromRight'>Pâlier a une surcharge de travail temporaire.</li>
+                    <li className='slideFromRight'>Pallier a une surcharge de travail temporaire.</li>
                     <li className='slideFromRight'>Combler l'absence de votre secrétaire en congés ou malade.</li>
                 </ul>
             </div>

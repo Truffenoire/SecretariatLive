@@ -18,7 +18,7 @@ const PastilleAvis = () => {
                 <div className="nameA">Vasques DeMelo Antonio</div>
             </div>
             <div className="pastilleAvis">
-                <div className="txtAvis">Cette assistante de direction indépendante ma permise de faire des économies en travaillant ponctuellement avec elle.<br></br>
+                <div className="txtAvis">Cette assistante de direction indépendante m'a permis de faire des économies en travaillant ponctuellement avec elle.<br></br>
                 Disponible et serieuse. <br></br>
                 J'en suis vraiment contente, je conseille à 1000%...
                 </div>
@@ -71,7 +71,7 @@ const PastilleAvis = () => {
                 <div className="nameA">CoralinailsTeam</div>
             </div>
             <div className="pastilleAvis">
-                <div className="txtAvis">Elle a toujours répondu présente à l'eensemble de mes demandes.<br></br>
+                <div className="txtAvis">Elle a toujours répondu présente à l'ensemble de mes demandes.<br></br>
                 Enfin une socièté qui a compris que le distentiel et internet ne se dispensait pas d'un accueil chaleureux.
                 </div>
                 <div className="logoAvis"><FaQuoteRight /></div>
