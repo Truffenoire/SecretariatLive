@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SecretariatLive/static/css/main.11d5fac3.css",
-    "main.js": "/SecretariatLive/static/js/main.b9f0d8fe.js",
+    "main.css": "/SecretariatLive/static/css/main.10314a5f.css",
+    "main.js": "/SecretariatLive/static/js/main.5a72d80d.js",
     "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
     "static/media/imgTextAnim.png": "/SecretariatLive/static/media/imgTextAnim.0f77f523b853b697917d.png",
     "static/media/yoga_medit.png": "/SecretariatLive/static/media/yoga_medit.a90fb84d901697165a34.png",
@@ -16,12 +16,12 @@
     "static/media/why.jpeg": "/SecretariatLive/static/media/why.e903dd3053fd27f25e5b.jpeg",
     "static/media/logoPetit.png": "/SecretariatLive/static/media/logoPetit.fef0886b61d1d978c5e6.png",
     "index.html": "/SecretariatLive/index.html",
-    "main.11d5fac3.css.map": "/SecretariatLive/static/css/main.11d5fac3.css.map",
-    "main.b9f0d8fe.js.map": "/SecretariatLive/static/js/main.b9f0d8fe.js.map",
+    "main.10314a5f.css.map": "/SecretariatLive/static/css/main.10314a5f.css.map",
+    "main.5a72d80d.js.map": "/SecretariatLive/static/js/main.5a72d80d.js.map",
     "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11d5fac3.css",
-    "static/js/main.b9f0d8fe.js"
+    "static/css/main.10314a5f.css",
+    "static/js/main.5a72d80d.js"
   ]
 }
