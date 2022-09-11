@@ -39,24 +39,26 @@ const Services = () => {
     return (
         <>
         <div className='entreprises'>
-            <h1 className='title'>Secretariat / Gestion et administration</h1>
-            <ul className='entreprisesList'>
-                <li>Factures, devis, bon de commandes</li>
-                <li>Relance d'impayés</li>
-                <li>Gestion des mails</li>
-                <li>Tableau de suivi des dépenses</li>
-                <li>Établissement des comptes en ligne (edf, eau, assurances etc...)</li>
-                <li>Interface avec la comptabilité</li>
-                <li>Tableaux ecxel simples</li>
-                <li>Papiers entête avec ou sans Logo</li>
-                <li>Dossiers adminitratifs (assurances, banques ...)</li>
-                <li>Traitements des appels téléphoniques</li>
-                <li>Photocopies (0.40 cts / page) A3, A4</li>
-                <li>Prise de rendez-vous pour la médecine du travail</li>
-                <li>Carte C.I.B.T.P</li>
-            </ul>
-            <p><em>Liste non exhaustive.</em></p>
         </div>
+            <div className="containEntrepriseList">
+                <h1 className='title'>Secretariat / Gestion et administration</h1>
+                <ul className='entreprisesList'>
+                    <li>Factures, devis, bon de commandes</li>
+                    <li>Relance d'impayés</li>
+                    <li>Gestion des mails</li>
+                    <li>Tableau de suivi des dépenses</li>
+                    <li>Établissement des comptes en ligne (edf, eau, assurances etc...)</li>
+                    <li>Interface avec la comptabilité</li>
+                    <li>Tableaux ecxel simples</li>
+                    <li>Papiers entête avec ou sans Logo</li>
+                    <li>Dossiers adminitratifs (assurances, banques ...)</li>
+                    <li>Traitements des appels téléphoniques</li>
+                    <li>Photocopies (0.40 cts / page) A3, A4</li>
+                    <li>Prise de rendez-vous pour la médecine du travail</li>
+                    <li>Carte C.I.B.T.P</li>
+                </ul>
+                <p><em>Liste non exhaustive.</em></p>
+            </div>
         <div className='organisation'>
             <h2 className='title'>Organisation</h2>
             <div className="fromLeft">Bien classé, bien trouvé !</div>

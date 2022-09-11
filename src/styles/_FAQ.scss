@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+    font-size: 25px;
     h1{
         margin: 2rem;
         a{
@@ -28,13 +29,13 @@
     .avantage{
         display: flex;
         flex-direction: column;
-        font-size: 20px;
+        // font-size: 20px; 
         margin: 1rem;
         .titleOne{
             margin: 1rem;
         }
         .flexAvantage{
-            font-size: 18px;
+            // font-size: 18px; 
             margin: 1rem;
             .title{
                 margin: 0.8rem;  
@@ -50,9 +51,9 @@
         .titleClick{
             margin: 1rem;
         }
-        .opaqueClick{
-            font-size: 18px; 
-        }
+        // .opaqueClick{
+        //     font-size: 18px; 
+        // }
     }
     .facturation{
         margin: 1rem;
@@ -66,8 +67,9 @@
             }
         }
         .opaqueClick{
-            margin: 2rem;
-            font-size: 18px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            // font-size: 18px;
         }
     }
 }

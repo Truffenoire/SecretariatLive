@@ -4,10 +4,16 @@
     font-size: 30px;
     align-items: center;
     padding: 30px 0;
+    .h2title{
+        color: $color-1;
+    }
     .iconExplose{
         display: flex;
         align-items: center;
         flex-direction: column;
+        .title{
+            color: $color-1; 
+        }
         .iconCharge{
             width: 750px;
             height: 500px;
@@ -34,14 +40,19 @@
         padding: 2rem;
     }
     .h2titleIcon{
+        color: $color-2;
         display: flex;
         padding: 0rem 2rem 2rem 2rem;
     }
     .particuliersListe{
         margin: 1rem;
         font-size: 30px;
+        list-style-type: disclosure-closed;
         li{
             padding: 0.2rem;
+            &::marker{
+                color: $color-1;
+            }
         }
     }
 
