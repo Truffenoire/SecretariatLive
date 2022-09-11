@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SecretariatLive/static/css/main.10314a5f.css",
-    "main.js": "/SecretariatLive/static/js/main.5a72d80d.js",
+    "main.css": "/SecretariatLive/static/css/main.28e7794f.css",
+    "main.js": "/SecretariatLive/static/js/main.a2f361ae.js",
     "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
     "static/media/imgTextAnim.png": "/SecretariatLive/static/media/imgTextAnim.0f77f523b853b697917d.png",
     "static/media/yoga_medit.png": "/SecretariatLive/static/media/yoga_medit.a90fb84d901697165a34.png",
@@ -12,16 +12,15 @@
     "static/media/email.jpg": "/SecretariatLive/static/media/email.ccd3f552476e4663da7e.jpg",
     "static/media/call-center-1.jpg": "/SecretariatLive/static/media/call-center-1.aaa89540f9451eae9b8c.jpg",
     "static/media/assistante.jpeg": "/SecretariatLive/static/media/assistante.d29a2680d7dee478c37d.jpeg",
-    "static/media/blocNote.png": "/SecretariatLive/static/media/blocNote.f082a0bab2720a2e6367.png",
     "static/media/why.jpeg": "/SecretariatLive/static/media/why.e903dd3053fd27f25e5b.jpeg",
     "static/media/logoPetit.png": "/SecretariatLive/static/media/logoPetit.fef0886b61d1d978c5e6.png",
     "index.html": "/SecretariatLive/index.html",
-    "main.10314a5f.css.map": "/SecretariatLive/static/css/main.10314a5f.css.map",
-    "main.5a72d80d.js.map": "/SecretariatLive/static/js/main.5a72d80d.js.map",
+    "main.28e7794f.css.map": "/SecretariatLive/static/css/main.28e7794f.css.map",
+    "main.a2f361ae.js.map": "/SecretariatLive/static/js/main.a2f361ae.js.map",
     "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10314a5f.css",
-    "static/js/main.5a72d80d.js"
+    "static/css/main.28e7794f.css",
+    "static/js/main.a2f361ae.js"
   ]
 }
