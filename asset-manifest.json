@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/SecretariatLive/static/css/main.28e7794f.css",
-    "main.js": "/SecretariatLive/static/js/main.a2f361ae.js",
+    "main.css": "/SecretariatLive/static/css/main.c7575152.css",
+    "main.js": "/SecretariatLive/static/js/main.37070368.js",
     "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
+    "static/media/reflection.jpg": "/SecretariatLive/static/media/reflection.767bb37b1d44efbcf8b2.jpg",
     "static/media/imgTextAnim.png": "/SecretariatLive/static/media/imgTextAnim.0f77f523b853b697917d.png",
+    "static/media/courbe.jpg": "/SecretariatLive/static/media/courbe.50b7dc7493cb518db208.jpg",
+    "static/media/connections.png": "/SecretariatLive/static/media/connections.819105585047d8e40010.png",
     "static/media/yoga_medit.png": "/SecretariatLive/static/media/yoga_medit.a90fb84d901697165a34.png",
     "static/media/cochon_euro.jpg": "/SecretariatLive/static/media/cochon_euro.e5b3c70bd919c0c492b7.jpg",
     "static/media/imgCharge.jpg": "/SecretariatLive/static/media/imgCharge.b0a14fe5fc94305c60ed.jpg",
@@ -15,12 +18,12 @@
     "static/media/why.jpeg": "/SecretariatLive/static/media/why.e903dd3053fd27f25e5b.jpeg",
     "static/media/logoPetit.png": "/SecretariatLive/static/media/logoPetit.fef0886b61d1d978c5e6.png",
     "index.html": "/SecretariatLive/index.html",
-    "main.28e7794f.css.map": "/SecretariatLive/static/css/main.28e7794f.css.map",
-    "main.a2f361ae.js.map": "/SecretariatLive/static/js/main.a2f361ae.js.map",
+    "main.c7575152.css.map": "/SecretariatLive/static/css/main.c7575152.css.map",
+    "main.37070368.js.map": "/SecretariatLive/static/js/main.37070368.js.map",
     "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e7794f.css",
-    "static/js/main.a2f361ae.js"
+    "static/css/main.c7575152.css",
+    "static/js/main.37070368.js"
   ]
 }
