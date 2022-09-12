@@ -43,26 +43,36 @@
     }
 }
 
-@media screen and (min-width:767px) and (max-width:1024px) {
+@media (max-width:1024px) {
     .home {
+        .bgCard{
+            .card {
+                height: 280px;
+                margin: 2%; 
+            }
+        }
+        .twoCard {
+            .twoFlex{
+                width: 300px;  
+            }
+        }
+    }
+}  
+@media (max-width:768px){
+    .home{
         .textAnimContain{
-            flex-direction: column-reverse;
+            flex-direction: column; 
             .backImg{
                 width: 100%;
+                height: 45vh;
+                img{
+                    height: 45vh;
+                }
             }
             .text{
                 width: 100%;
-            }
-        }
-        .bgCard {
-            flex-direction: column;
-        }
-        .twoCard {
-            width: 35%;
-            flex-direction: column;
-            margin: 0 auto;
-            .twoFlex{
-                margin: 1rem;
+                height: 45vh; 
+                font-size: 30px;
             }
         }
     }

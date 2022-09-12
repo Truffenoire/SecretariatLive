@@ -3,6 +3,10 @@ import {gsap} from 'gsap'
 import { ScrollTrigger} from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
+import connections from '../../imageImport/connections.png'
+import reflection from '../../imageImport/reflection.jpg'
+import courbe from '../../imageImport/courbe.jpg'
+
 gsap.registerPlugin( ScrollTrigger, ScrollToPlugin )
 
 const Services = () => {
@@ -41,7 +45,7 @@ const Services = () => {
         <div className='entreprises'>
         </div>
             <div className="containEntrepriseList">
-                <h1 className='title'>Secretariat / Gestion et administration</h1>
+                {/* <h1 className='title'>Secretariat / Gestion et administration</h1>
                 <ul className='entreprisesList'>
                     <li>Factures, devis, bon de commandes</li>
                     <li>Relance d'impayés</li>
@@ -57,7 +61,52 @@ const Services = () => {
                     <li>Prise de rendez-vous pour la médecine du travail</li>
                     <li>Carte C.I.B.T.P</li>
                 </ul>
-                <p><em>Liste non exhaustive.</em></p>
+                <p><em>Liste non exhaustive.</em></p> */}
+                <div className='entreprisesList'>
+                <h2 className='title'>Gestion de l'entreprise</h2>
+                    <ul>
+                        <li>Factures, devis, bon de commande : saisie, envoi, traitement</li>
+                        <li>Relance impayés</li>
+                        <li>Tableau de suivi des dépenses</li>
+                        <li>Commandes auprès des fournisseurs</li>
+                        <li>Classeurs de chantiers (documents, affichages obligatoires)</li>
+                        <li>Réservations de billets train / avion / véhicules de location</li>
+                        <li>Réservations hébergement</li>
+                    </ul>
+                </div>
+                <div className='imgList'>
+                    <img className='imgReflection' src={courbe} alt="courbe croissance" />
+                </div>
+                <div className='imgList'>
+                    <img className='imgCourbe' src={connections} alt="prise de tête" />
+                </div>
+                <div className='entreprisesList'>
+                    <h2 className='title'>Gestion du personnel</h2>
+                    <p>(avec interface comptabilité)</p>
+                    <ul>
+                        <li>DUE / Contrats de travail</li>
+                        <li>Visites médicales</li>
+                        <li>Congés / Arrêt maladies</li>
+                        <li>Etablissement de plannings</li>
+                        <li>Carte C.I.B.T.P</li>
+                        <li>Notes de frais</li>
+                    </ul>
+                </div>
+                <div className="entreprisesList">
+                    <h2 className='title'>Gestion administrative</h2>
+                    <ul>
+                        <li>Traitement mails</li>
+                        <li>Courriers / Documents : saisie, envoi</li>
+                        <li>Envois recommandés</li>
+                        <li>Tableaux excel</li>
+                        <li>Traitements des appels</li>
+                        <li>Agenda</li>
+                    </ul>
+                </div>
+                <div className='imgList'>
+                    <img className='imgReflection' src={reflection} alt="prise de tête" />
+                </div>
+                <p className='footEntrepriseList'>Liste non exhaustive</p>
             </div>
         <div className='organisation'>
             <h2 className='title'>Organisation</h2>

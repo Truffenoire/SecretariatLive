@@ -105,11 +105,11 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
                     <h3 className='titleOne'>Quels sont les avantages d'une secretaire indépendante ?</h3>
                 <div className='flexAvantage'>
                     <h4 className='title title1'>Financiers :</h4>
-                    <p className="txt txt1">Le principal avantage est financier en comparaison avec le coût d'un intérimaire ou d'un salarié.<br></br> Vous ne signez pas de contrat avec la secretaire indépendante mais elle vous facture ses prestations. <br></br>C'est un contrat de service. Pas de charges, de congés à payer, de formations, de congés etc...</p>
+                    <p className="txt txt1">Le principal avantage est financier en comparaison avec le coût d'un intérimaire ou d'un salarié.<br></br> Vous ne signez pas de contrat avec la secrétaire indépendante mais elle vous facture ses prestations. <br></br>C'est un contrat de service. Pas de charges, de congés à payer, de formations etc...</p>
                 </div>
                 <div className='flexAvantage'>
                     <h4 className='title title2'>Flexibilité :</h4>
-                    <p className="txt txt2">Elle peut subvenir à une surcharge de travail temporaire, <br></br> combler l'absence de votre secretaire malade ou en congés.</p>
+                    <p className="txt txt2">Elle peut subvenir à une surcharge de travail temporaire, <br></br> combler l'absence de votre secrétaire malade ou en congés.</p>
                 </div>
                 <div className='flexAvantage'>
                     <h4 className='title title3'>Facile et rapide :</h4>
@@ -117,12 +117,12 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
                 </div>
             </div>
             <div className="comment">
-                <h2 className='titleClick'>Comment et pourquoi travailler à distance ?</h2>
-                <p className="opaqueClick">Vous l'aurez remarqué ! Chaque organisme ou entreprise dématerialise aujourd'hui certaines de ses fonctions. Grâce au télétravail et au developpement des technologie, vous pourrez choisir de travailler à distane afin de gagner en rapidité et en temps. Je m'adapte à vos connaissances et vos habitudes. La plupart de mes clients communiquent avec moi via differente application : What's App, télégram, Zoom, mails, téléphone, cloud... Afin de partager instentanement des documents et vos demandes.</p>
+                <h3 className='titleClick'>Comment et pourquoi travailler à distance ?</h3>
+                <p className="opaqueClick">Vous l'aurez remarqué ! Chaque organisme ou entreprise dématerialise aujourd'hui certaines de ses fonctions. Grâce au télétravail et au developpement des technologies, vous pourrez choisir de travailler à distance afin de gagner en rapidité et en temps. Je m'adapte à vos connaissances et vos habitudes. La plupart de mes clients communiquent avec moi via differentes applications : What's App, télégram, Zoom, mails, téléphone, cloud... Afin de partager instentanément des documents et vos demandes.</p>
             </div>
             <div className="facturation">
-                <h2 className="titleClick">Comment se passe la facturation ?</h2>
-                <p className="opaqueClick">Nous convenons ensemble en visioconférence ou par téléphone de vos besoin, je vous envoie le devis que vous me retournez signé. À la fin de la mission, je vous fais parvenir ma facture, réglable par virement bancaire ou paypal à réception.</p>
+                <h3 className="titleClick">Comment se passe la facturation ?</h3>
+                <p className="opaqueClick">Nous convenons ensemble en visioconférence ou par téléphone de vos besoins, je vous envoie le devis que vous me retournez signé. À la fin de la mission, je vous fais parvenir ma facture, réglable par virement bancaire ou paypal à réception.</p>
             </div>
         </div>
     );

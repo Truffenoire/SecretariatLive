@@ -4,9 +4,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 110px;
-    background-color: $color-2;
-    .position{
+    height: 110px;  
+    // background-image: url("/imageImport/bannerTop.png");
+    // background-size: 80%;     
+    background: rgb(104,116,119);
+    background: linear-gradient(90deg, rgba(104,116,119,1) 30%, rgba(255,255,255,1) 100%);
+        .position{
         display: flex;
         align-items: center;
         color: $color-3;
@@ -65,15 +68,9 @@
       font-size: 24px;
     }
   }
-@media screen and (min-width:300px) and (max-width:375px){
+
+@media (max-width:425px) { 
     .bannerTop{
-        .position{
-            font-size: 14px;
-        }
-        ul{
-            font-size: 14px;
-            flex-grow: 1;
-            text-align: end;
-        }
+        display: none;
     }
-}
+  }

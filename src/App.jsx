@@ -26,11 +26,12 @@ function App() {
     const [sousMenu, setSousMenu] = useState(0)
     const [growUp, setGrowUp] = useState('grow')
     const [growUpTwo, setGrowUpTwo] = useState('essai')
+    const [showMenu, setShowMenu] = useState(false)
 
   return (
     <div className="App">
       <BannerTop growUp={growUp} setGrowUp={setGrowUp} growUptwo={growUpTwo} setGrowUpTwo={setGrowUpTwo} />
-      <Header accueil={accueil} setAccueil={setAccueil} service={service} setService={setService} tarifs={tarifs} setTarifs={setTarifs}
+      <Header showMenu={showMenu} setShowMenu={setShowMenu} accueil={accueil} setAccueil={setAccueil} service={service} setService={setService} tarifs={tarifs} setTarifs={setTarifs}
         contact={contact} setContact={setContact} faq={faq} setFaq={setFaq} sousMenu={sousMenu} setSousMenu={setSousMenu} />
       <Routes>
         <Route path="/SecretariatLive" element={<Home />} />

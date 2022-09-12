@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../imageImport/logoPetit.png'
 
 
-const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, contact, setContact, faq, setFaq, sousMenu, setSousMenu} ) => {
+const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setService, tarifs, setTarifs, contact, setContact, faq, setFaq, sousMenu, setSousMenu} ) => {
 
     const handleAccueil = (e) => {
         setService('hoverA')
@@ -13,8 +13,11 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
         setFaq('hoverA')
         setAccueil('selected')
         setSousMenu(0)
+        // setShowMenu(!showMenu)
     }
-
+    const handleShow = () => {
+        setShowMenu(!showMenu)
+    }
     const handleMenu = (e) => {
         setSousMenu(1)
     }
@@ -26,6 +29,7 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
         setFaq('hoverA')
         setAccueil('hoverA')
         setSousMenu(0)
+        // setShowMenu(!showMenu)
     }
     const handleContact = (e) => {
         setService('hoverA')
@@ -34,6 +38,7 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
         setFaq('hoverA')
         setAccueil('hoverA')
         setSousMenu(0)
+        // setShowMenu(!showMenu)
     }
     const handleFAQ = (e) => {
         setService('hoverA')
@@ -42,6 +47,7 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
         setFaq('selected')
         setAccueil('hoverA')
         setSousMenu(0)
+        // setShowMenu(!showMenu)
     }
     const handleClose = (e) => {
         setSousMenu(0)
@@ -63,9 +69,9 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
     return (
         <div className='header'>
             <div className='logo'>
-                <img src={logo} alt="Logo secretariat Live" />
+                <Link to={"/SecretariatLive"}><img src={logo} alt="Logo secretariat Live" /></Link>
             </div>
-            <nav className='navBar' >
+            <nav className={`navBar ${showMenu ? "showNav" : "hideNav"}`}>
                 <ul>
                     <Link className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
                     <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link>
@@ -83,6 +89,9 @@ const Header = ( {accueil, setAccueil, service, setService, tarifs, setTarifs, c
                     <Link className={contact} onMouseEnter={handleClose} onClick={handleContact} to={"/contact"}>Contact</Link>
                     <Link className={faq} onMouseEnter={handleClose} onClick={handleFAQ} to={"/FAQ"}>FAQ</Link>      
                 </ul>
+                <button className='navBar_Burger' onClick={handleShow}>
+                    <span className='burger_Bar'></span>
+                </button>
             </nav>
 
         </div>

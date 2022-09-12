@@ -38,6 +38,41 @@
         }
     }
 }
+@media (max-width:1024px) { 
+    .home{
+        .cardTxt{
+            .cardListTxt{
+                margin: 0; 
+                ul{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) { 
+    .home{
+        .cardTxt{
+            padding: 0;
+            .cardListTxt{
+                h2{
+                    font-size: 40px;
+                }
+                ul{
+                    li{
+                        font-size: 25px; 
+                    }
+                }
+            }
+            .border{
+                height: 420px;  
+                img{
+                    height: 420px;    
+                }
+            }
+        }
+    }
+}
 @media (max-width:425px) {
     .home{
         .cardTxt{
