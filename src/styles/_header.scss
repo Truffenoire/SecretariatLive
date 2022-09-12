@@ -199,6 +199,7 @@
                 height: 3px;
                 position: relative;
                 background-color: black;
+                transition: all .1s ease-in-out; 
                 &::before{
                     content: "";
                     display: block; 
@@ -208,6 +209,7 @@
                     position: absolute;
                     background-color: black; 
                     transform: translateY(-12px);  
+                    transition: all .3s ease-in-out; 
                 }
                 &::after{ 
                     content: "";    
@@ -217,7 +219,8 @@
                     left: 0; 
                     position: absolute;
                     background-color: black;
-                    transform: translateY(12px);         
+                    transform: translateY(12px);      
+                    transition: all .3s ease-in-out;         
                 }              
             }
         }    
@@ -231,20 +234,26 @@
 
 @media (max-width:320px) {
     .header {
-        .sousMenu {
-            a {
-                font-size: 16px;
+        .navBar{
+            ul{
+                .sousMenu {
+                    top: 345px;
+                    right: 4%;
+                        a{
+                            font-size: 25px;
+                        }
+                }
             }
         }
-
-        .navBar {
-            ul {
-                a.hoverA {
-                    font-size: 18px;
-                }
-
-                a.selected {
-                    font-size: 18px;
+    }
+}
+@media (max-width:390px) {
+    .header {
+        .navBar{
+            ul{
+                .sousMenu {
+                    top: 345px;
+                    right: 8%;    
                 }
             }
         }
