@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'
-
+// import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../imageImport/logoPetit.png'
 
 
@@ -13,7 +13,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
         setFaq('hoverA')
         setAccueil('selected')
         setSousMenu(0)
-        // setShowMenu(!showMenu)
+        setShowMenu(!showMenu)
     }
     const handleShow = () => {
         setShowMenu(!showMenu)
@@ -29,7 +29,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
         setFaq('hoverA')
         setAccueil('hoverA')
         setSousMenu(0)
-        // setShowMenu(!showMenu)
+        setShowMenu(!showMenu)
     }
     const handleContact = (e) => {
         setService('hoverA')
@@ -38,7 +38,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
         setFaq('hoverA')
         setAccueil('hoverA')
         setSousMenu(0)
-        // setShowMenu(!showMenu)
+        setShowMenu(!showMenu)
     }
     const handleFAQ = (e) => {
         setService('hoverA')
@@ -47,10 +47,11 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
         setFaq('selected')
         setAccueil('hoverA')
         setSousMenu(0)
-        // setShowMenu(!showMenu)
+        setShowMenu(!showMenu)
     }
     const handleClose = (e) => {
         setSousMenu(0)
+
     }
     const handleCloseSousMenu = (e) => {
         setSousMenu(0)
@@ -59,6 +60,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
         setContact('hoverA')
         setFaq('hoverA')
         setAccueil('hoverA')
+        setShowMenu(!showMenu)
     }
     // const handleUrl = (e) => {
         let url = window.location.href
@@ -69,25 +71,25 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
     return (
         <div className='header'>
             <div className='logo'>
-                <Link to={"/SecretariatLive"}><img src={logo} alt="Logo secretariat Live" /></Link>
+                <Link id={'ancre'} to={"/SecretariatLive"}><img src={logo} alt="Logo secretariat Live" /></Link>
             </div>
             <nav className={`navBar ${showMenu ? "showNav" : "hideNav"}`}>
                 <ul>
-                    <Link className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive"}>Accueil</Link>
+                    <Link className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive#ancre"}>Accueil</Link>
                     <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link>
                     
                     {sousMenu === 1 ?
                         <div onMouseLeave={handleClose} onMouseEnter={handleMenu} className='sousMenu'>
-                            <Link onClick={handleCloseSousMenu} to={"/entreprises"}>Entreprises</Link>
-                            <Link onClick={handleCloseSousMenu} to={"particuliers"}>Particuliers</Link>
+                            <Link onClick={handleCloseSousMenu} to={"/entreprises#ancre"}>Entreprises</Link>
+                            <Link onClick={handleCloseSousMenu} to={"particuliers#ancre"}>Particuliers</Link>
                         </div>
                         :
                         null
                     }
                     
-                    <Link className={tarifs} onMouseEnter={handleClose} onClick={handleTarifs} to={"/tarifs"}>Tarifs</Link>
-                    <Link className={contact} onMouseEnter={handleClose} onClick={handleContact} to={"/contact"}>Contact</Link>
-                    <Link className={faq} onMouseEnter={handleClose} onClick={handleFAQ} to={"/FAQ"}>FAQ</Link>      
+                    <Link className={tarifs} onMouseEnter={handleClose} onClick={handleTarifs} to={"/tarifs#ancre"}>Tarifs</Link>
+                    <Link className={contact} onMouseEnter={handleClose} onClick={handleContact} to={"/contact#ancre"}>Contact</Link>
+                    <Link className={faq} onMouseEnter={handleClose} onClick={handleFAQ} to={"/FAQ#ancre"}>FAQ</Link>      
                 </ul>
                 <button className='navBar_Burger' onClick={handleShow}>
                     <span className='burger_Bar'></span>

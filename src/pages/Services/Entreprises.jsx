@@ -29,10 +29,10 @@ const Services = () => {
     useEffect(() => {
         gsap.fromTo(".fromRight",
             {
-                x:200, opacity: 0, 
+                y:100, opacity: 0, 
             }, 
             {
-                x: 0, opacity: 1, delay: 0.3, duration: 2.5,
+                y: 0, opacity: 1, delay: 0.3, duration: 2.5,
                 scrollTrigger: {
                     trigger:".fromRight",
                 }

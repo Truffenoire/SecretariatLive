@@ -138,9 +138,9 @@
         height: max-content; 
 
         .sousMenu {
-            top: 175px;
-            right: 6%;
-            border: 1px solid white;
+            top: 335px;
+            right: 10%;
+            border: 1px solid $color-1;    
         }
 
         .navBar.hideNav{
@@ -155,6 +155,12 @@
             background-color: white;  
             height: 100vh; 
             width: 100vw;
+            ul{
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                gap: 5%;        
+            }
             button{
                 span.burger_Bar{  
                     height: 0; 

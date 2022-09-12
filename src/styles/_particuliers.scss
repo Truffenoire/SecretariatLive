@@ -46,7 +46,7 @@
     }
     .particuliersListe{
         margin: 1rem;
-        font-size: 30px;
+        font-size: 25px;
         list-style-type: disclosure-closed;
         li{
             padding: 0.2rem;
@@ -57,4 +57,33 @@
     }
 
 }
- 
+@media (max-width:425px){
+    .particuliers{
+        .iconExplose{
+            .title{
+                font-size: 50px;
+                padding: 1rem;
+            }
+            .iconCharge{
+                width: auto;
+                height: auto; 
+                img{
+                    height: auto;  
+                    width: 100%;
+                }
+            }
+        }
+        .h2title{
+            padding: 1rem; 
+        }
+        .iconMedit{
+            img{
+                height: 420px;
+                width: 100%;
+            }
+        }
+        .particuliersListe{
+            padding: 1rem;
+        }
+    }
+}

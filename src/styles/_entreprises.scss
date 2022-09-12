@@ -63,7 +63,7 @@
     }
     .organisationList{
         margin: 1rem;
-        font-size: 30px;
+        font-size: 25px; 
         list-style-type: disclosure-closed;
             li{
                 padding: 0.2rem; 
@@ -89,5 +89,25 @@
         font-size: 24px; 
         border-radius: 10px; 
         margin: 15px 0;
+    }
+}
+@media (max-width:425px) {
+    .containEntrepriseList{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .entreprisesList{
+            width: 100%;
+            padding: 2rem;
+        }
+        .imgList{
+            width: 100%; 
+            margin-bottom: 10px;
+        }
+    }
+    .organisation{
+        .organisationList{
+            margin: 0;
+            padding: 3rem;
+        }
     }
 }

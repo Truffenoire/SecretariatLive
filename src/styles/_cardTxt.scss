@@ -76,11 +76,16 @@
 @media (max-width:425px) {
     .home{
         .cardTxt{
+            flex-direction: column;
             .cardListTxt{
                 font-size: 20px;
+                width: 100%;
                 h2{
                     font-size: 25px;
                 }
+            }
+            .border{
+                width: 100%;
             }
         }
     }

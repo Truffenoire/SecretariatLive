@@ -27,3 +27,18 @@
         }
     }
 }
+@media (max-width:425px){
+    .footer{
+        height: 120px;
+        .reseauSociaux{
+            gap: 15px;
+            font-size: 40px;
+        } 
+        .rgpd{
+            a{
+                font-size: 21px;
+                font-weight: bold;
+            }
+        }
+    }
+}

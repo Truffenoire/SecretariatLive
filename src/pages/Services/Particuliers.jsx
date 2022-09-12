@@ -20,7 +20,7 @@ const Particuliers = () => {
                 height: 0, opacity: 0, delay: 1,
             },
             {
-                height: 500, opacity: 1, delay: 0.3, duration: 1.5,
+                height: 420, opacity: 1, delay: 0.3, duration: 1.5,
                 scrollTrigger: {
                     trigger: ".yogaSuperpose",
                 }

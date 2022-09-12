@@ -65,7 +65,7 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
     useEffect(() => {
         gsap.timeline().fromTo(".txt1",
             {
-                x: 200, opacity: 0, delay: 1,
+                x: -200, opacity: 0, delay: 1,
             },
             {
                 x: 0, opacity: 1, delay: 0.3, duration: 1,
@@ -76,7 +76,7 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
         )
         .fromTo(".txt2",
             {
-                x: 200, opacity: 0, delay: 1,
+                x: -200, opacity: 0, delay: 1,
             },
             {
                 x: 0, opacity: 1, delay: 0.3, duration: 1,
@@ -87,7 +87,7 @@ const FAQ = ( {setAccueil, setContact, setFaq, setTarifs, setService} ) => {
         )
         .fromTo(".txt3",
             {
-                x: 200, opacity: 0, delay: 1,
+                x: -200, opacity: 0, delay: 1,
             },
             {
                 x: 0, opacity: 1, delay: 0.3, duration: 1,
