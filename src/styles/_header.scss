@@ -11,27 +11,29 @@
         text-decoration: none;
         padding: 10px 15px;
     }
-
-    .sousMenu {
-        display: flex;
-        float: left;
-        // flex-direction: column;
-        position: absolute;
-        // background-color: black;
-        border: 2px solid $color-1;
-        // right: 30%; 
-        top: 235px;  
-
-        a {
-            text-decoration: none;
-            font-size: 20px;
-            color: $color-2;
-            padding: 10px 15px;
-
-            &:hover {
-                text-shadow: 4px 3px 6px white;
+    .sousMenuContainer{
+        position: relative;
+            .sousMenu {
+                display: flex;
+                float: left;
+                // flex-direction: column;
+                position: absolute;
+                // background-color: black;
+                border: 2px solid $color-1;
+                right: -90%; 
+                // top: 235px;   
+        
+                a {
+                    text-decoration: none;
+                    // font-size: 20px;
+                    color: $color-2;
+                    padding: 10px 15px;
+        
+                    &:hover {
+                        text-shadow: 4px 3px 6px white;
+                    }
+                }
             }
-        }
     }
 
     .logo {
@@ -131,16 +133,17 @@
 }
 
  
-
-@media (max-width:425px) {
+// and (max-height:760px) a travailler pour les mobils
+@media (max-width:425px)  {
     .header {
-        flex-direction: column;
+        flex-direction: column;  
         height: max-content; 
-
-        .sousMenu {
-            top: 335px;
-            right: 10%;
-            border: 1px solid $color-1;    
+        .sousMenuContainer{
+            .sousMenu {
+                top: 32px;
+                right: -25vw;
+                border: none;     
+            }
         }
 
         .navBar.hideNav{
@@ -236,9 +239,9 @@
     .header {
         .navBar{
             ul{
-                .sousMenu {
-                    top: 345px;
-                    right: 4%;
+                .sousMenu { 
+                    // top: 345px;
+                    // right: 4%;
                         a{
                             font-size: 25px;
                         }
@@ -252,8 +255,8 @@
         .navBar{
             ul{
                 .sousMenu {
-                    top: 345px;
-                    right: 8%;    
+                    // top: 345px;
+                    // right: 8%;    
                 }
             }
         }

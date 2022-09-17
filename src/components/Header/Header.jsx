@@ -76,15 +76,18 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
             <nav className={`navBar ${showMenu ? "showNav" : "hideNav"}`}>
                 <ul>
                     <Link className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive#ancre"}>Accueil</Link>
-                    <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link>
+                    {/* <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link> */}
                     
                     {sousMenu === 1 ?
+                    <div className='sousMenuContainer'>
+                        <Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link>
                         <div onMouseLeave={handleClose} onMouseEnter={handleMenu} className='sousMenu'>
                             <Link onClick={handleCloseSousMenu} to={"/entreprises#ancre"}>Entreprises</Link>
                             <Link onClick={handleCloseSousMenu} to={"particuliers#ancre"}>Particuliers</Link>
                         </div>
+                    </div>
                         :
-                        null
+                        <div><Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link></div>
                     }
                     
                     <Link className={tarifs} onMouseEnter={handleClose} onClick={handleTarifs} to={"/tarifs#ancre"}>Tarifs</Link>
