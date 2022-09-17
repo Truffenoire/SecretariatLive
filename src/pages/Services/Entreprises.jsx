@@ -70,8 +70,8 @@ const Services = () => {
                         <li>Tableau de suivi des dépenses</li>
                         <li>Commandes auprès des fournisseurs</li>
                         <li>Classeurs de chantiers (documents, affichages obligatoires)</li>
-                        <li>Réservations de billets train / avion / véhicules de location</li>
-                        <li>Réservations hébergement</li>
+                        <li>Réservations et gestion des déplacements</li>
+                        <li>Gestion flotte automobile</li>
                     </ul>
                 </div>
                 <div className='imgList'>

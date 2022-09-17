@@ -17,6 +17,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
     }
     const handleShow = () => {
         setShowMenu(!showMenu)
+        setSousMenu(0)
     }
     const handleMenu = (e) => {
         setSousMenu(1)

@@ -27,18 +27,20 @@
             }
         }
         .text{
-            h4{
-                padding-bottom: 80px;
-                font-weight: 600;
-            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             width: 50%;
             text-align: center;
-            padding-top: 100px;
             color: #F7F3F5;
             background-color: #403234;
             text-shadow: 3px 0px black;
             height: 70vh;
-            font-size: 45px;
+            font-size: 45px;           
+            h4{
+                padding-bottom: 80px;
+                font-weight: 600;
+            }
         }
     }
 }
@@ -79,6 +81,13 @@
 }
 @media (max-width:425px) {
     .home {
+        .textAnimContain{
+            .text{ 
+                h4{
+                    padding-bottom: 30px; 
+                }
+            }
+        }
         .text{
             font-size: 25px;
         }
