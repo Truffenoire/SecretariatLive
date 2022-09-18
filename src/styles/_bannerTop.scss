@@ -69,6 +69,13 @@
     }
   }
 
+@media (max-width:834px) {     
+    .bannerTop{
+        ul{
+            width: 30%;
+        }
+    }
+  }
 @media (max-width:425px) { 
     .bannerTop{
         display: none;

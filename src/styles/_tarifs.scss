@@ -135,6 +135,21 @@
         }
     }     
 }
+@media (max-width:834px) {
+     .tarifs{
+        .bulleContainer{
+            flex-wrap: wrap;
+        }
+        .containExemple{
+            .exemple{
+                width: 85%;
+                .exempleTitle{
+                    width: 25%;
+                }
+            }
+        }
+     }
+}
 @media (max-width:425px) {
     .tarifs{
         h1{

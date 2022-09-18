@@ -88,3 +88,19 @@
             }
         }
 }
+@media (max-width:425px) {
+    .rgpd{
+        .protection{
+            h2{
+                padding-right: 0;
+            }
+            .listOrganisé{
+                .reglement{
+                    div{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -119,6 +119,31 @@
         }
     }
 }
+@media (max-width:834px) {
+    .contact{
+        .linkContact{
+            .containImg{
+                display: none; 
+            }
+        }
+        .formContainer{
+            flex-direction: column;
+            .containForm{
+                width: 80%;
+                order: 2;
+            }
+            .containImgMail{
+                width: 70%;
+            }
+        }
+        .avis{
+            .pastilleAvis{
+                width: 45%;
+            }
+        }
+    }
+}
+
 @media (max-width:425px) {
     .contact{
         .linkContact{
