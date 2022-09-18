@@ -169,7 +169,7 @@
                     list-style-type: none;   
                     &::after{
                         content: "";
-                        background-color: black;
+                        background-color: $color-1;
                         height: 1px;
                         width: 100%;
                         display: block;

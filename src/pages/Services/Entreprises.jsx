@@ -62,7 +62,7 @@ const Services = () => {
                     <li>Carte C.I.B.T.P</li>
                 </ul>
                 <p><em>Liste non exhaustive.</em></p> */}
-                <div className='entreprisesList'>
+                <div className='entreprisesList one'>
                 <h2 className='title'>Gestion de l'entreprise</h2>
                     <ul>
                         <li>Factures, devis, bon de commande : saisie, envoi, traitement</li>
@@ -74,13 +74,13 @@ const Services = () => {
                         <li>Gestion flotte automobile</li>
                     </ul>
                 </div>
-                <div className='imgList'>
+                <div className='imgList two'>
                     <img className='imgReflection' src={courbe} alt="courbe croissance" />
                 </div>
-                <div className='imgList'>
+                <div className='imgList three'>
                     <img className='imgCourbe' src={connections} alt="prise de tête" />
                 </div>
-                <div className='entreprisesList'>
+                <div className='entreprisesList four'>
                     <h2 className='title'>Gestion du personnel</h2>
                     <p>(avec interface comptabilité)</p>
                     <ul>
@@ -92,7 +92,7 @@ const Services = () => {
                         <li>Notes de frais</li>
                     </ul>
                 </div>
-                <div className="entreprisesList">
+                <div className="entreprisesList five">
                     <h2 className='title'>Gestion administrative</h2>
                     <ul>
                         <li>Traitement mails</li>
@@ -103,7 +103,7 @@ const Services = () => {
                         <li>Agenda</li>
                     </ul>
                 </div>
-                <div className='imgList'>
+                <div className='imgList six'>
                     <img className='imgReflection' src={reflection} alt="prise de tête" />
                 </div>
                 <p className='footEntrepriseList'>Liste non exhaustive</p>
