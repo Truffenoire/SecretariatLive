@@ -1,0 +1,231 @@
+@media (max-height:500px) {
+    .bannerTop{ 
+        display: none;
+    }
+    .header {
+        flex-direction: column;  
+        height: max-content; 
+        .sousMenuContainer{
+            .sousMenu {
+                flex-direction: column;
+                top: 32px;
+                right: -20vw;
+                border: none;   
+                li{
+                    margin: 10px;
+                }  
+            }
+        }
+        .navBar.hideNav{
+            ul{
+               display: none;  
+            }    
+        }
+        .navBar.showNav{
+            z-index: 10; 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            background-color: white;  
+            height: 100vh; 
+            animation: 0.5s widthFromLeft;    
+            width: 100vw;  
+            ul{
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                gap: 5%;
+                .sousMenu{
+                    li{
+                        &::after{ 
+                            display: none;
+                        }
+                    }  
+                }
+                li{ 
+                    list-style-type: none;   
+                    &::after{
+                        content: "";
+                        background-color: $color-1;
+                        height: 1px;
+                        width: 100%;
+                        display: block;
+                        animation: 1s slideFromLeft;   
+                    }
+                    // #slideTop0{ 
+                    //     // animation: 0.5s slideFromLeft; 
+                    // }
+                    // #slideTop1{ 
+                    //     // animation: 0.6s slideFromLeft;  
+                    // }
+                    #slideTop2{  
+                        animation: 0.7s slideFromLeft;  
+                    }
+                    #slideTop3{ 
+                        animation: 0.8s slideFromLeft;  
+                    }
+                    #slideTop4{ 
+                        animation: 0.9s slideFromLeft; 
+                    }
+                }  
+                div{           
+                    .sousMenu{ 
+                        border-bottom: none; 
+                    }
+                }    
+            }
+            button{
+                span.burger_Bar{  
+                    height: 0; 
+                    &::before{
+                        transform: rotate(45deg);
+                    }  
+                    &::after{
+                        transform: rotate(-45deg);  
+                    }
+                }
+            }
+        }
+        .navBar { 
+            // menu burger
+            
+        .navBar_Burger{
+            display: flex;   
+            z-index: 10; 
+            justify-content: center;
+            align-items: center;
+            position: fixed;  
+            top: 1rem;
+            right: 1rem;
+            height: 45px;
+            width: 45px;
+            border-radius: 5px;
+            background: white; 
+            border: none;
+            color: inherit;
+            &:hover{
+                cursor: pointer;
+            }
+            span.burger_Bar{   
+                display: block;
+                width: 40px;
+                height: 3px;
+                position: relative;
+                background-color: black;
+                transition: all .1s ease-in-out; 
+                &::before{
+                    content: "";
+                    display: block; 
+                    width: 40px;
+                    height: 3px;
+                    left: 0; 
+                    position: absolute;
+                    background-color: black; 
+                    transform: translateY(-12px);  
+                    transition: all .3s ease-in-out; 
+                }
+                &::after{ 
+                    content: "";    
+                    display: block;
+                    width: 40px;
+                    height: 3px;
+                    left: 0; 
+                    position: absolute;
+                    background-color: black;
+                    transform: translateY(12px);      
+                    transition: all .3s ease-in-out;         
+                }              
+            }
+        }    
+        // fin menu
+            ul {
+                flex-direction: column;
+            }
+        }
+    }
+    .home{
+        .textAnimContain{
+            .backImg{
+                display: none;
+            }
+            .text{
+                width: 100%;
+                h4{
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        .bgCard{
+            .card{
+                .flex{
+                    .icon{
+                        font-size: 60px;
+                    }
+                    .txt{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+      }
+      .containEntrepriseList{ 
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .entreprisesList{
+            width: 100%;
+            padding: 2rem;
+        }
+        .imgList{
+            width: 100%; 
+            margin-bottom: 10px;
+            .imgCourbe{
+                width: 40%;
+            }
+            .imgReflection{
+                width: 60%;
+            }
+        }
+        .one{
+            order: 1;
+        }
+        .two{
+            order: 2;
+        }
+        .three{
+            order: 4;
+        }
+        .four{
+            order: 4;
+        }
+        .five{
+            order: 3;
+        }
+        .six{
+            order: 4;    
+        } 
+    }
+    .organisation{
+        .organisationList{
+            margin: 0;
+            padding: 3rem;
+        }
+    } 
+    .tarifs{
+        .bulleContainer{
+            flex-wrap: wrap;
+        }
+        .containExemple{
+            .exemple{
+                width: 85%;
+                .exempleTitle{
+                    width: 25%;
+                }
+            }
+        }
+     }
+     .contact{
+        .containImgMail{
+            display: none;
+        }
+     }
+}
