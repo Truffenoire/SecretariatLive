@@ -50,7 +50,7 @@
             align-items: center;      
              .navBar_Burger{
                 display: none;
-            }        
+            }         
             .sousMenu {
                 animation: 0.3s slideFromBot;
             }
@@ -85,6 +85,11 @@
             }
         }
     }
+    .navBar.hideNav{
+        button.navBar_Burger{
+                display: none; 
+        }  
+    } 
 }
 
 @keyframes slideFromBot {
@@ -142,7 +147,12 @@
         .navBar.hideNav{
             ul{
                display: none;  
-            }    
+            }  
+            
+            button.navBar_Burger{
+                display: flex;   
+            }  
+               
         }
         .navBar.showNav{
             z-index: 10; 
@@ -198,6 +208,7 @@
                 }    
             }
             button{
+                display: block;
                 span.burger_Bar{  
                     height: 0; 
                     &::before{
