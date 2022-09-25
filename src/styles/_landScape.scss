@@ -20,6 +20,10 @@
             ul{
                display: none;  
             }    
+            // button qui disparait au format mobile landScape à verifier
+            button.navBar_Burger{
+                display: flex;   
+            } 
         }
         .navBar.showNav{
             z-index: 10; 
