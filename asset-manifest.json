@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/SecretariatLive/static/css/main.0774b911.css",
-    "main.js": "/SecretariatLive/static/js/main.199a7358.js",
-    "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
-    "static/media/reflection.jpg": "/SecretariatLive/static/media/reflection.767bb37b1d44efbcf8b2.jpg",
-    "static/media/imgTextAnim.png": "/SecretariatLive/static/media/imgTextAnim.0f77f523b853b697917d.png",
-    "static/media/courbe.jpg": "/SecretariatLive/static/media/courbe.50b7dc7493cb518db208.jpg",
-    "static/media/connections.png": "/SecretariatLive/static/media/connections.819105585047d8e40010.png",
-    "static/media/yoga_medit.png": "/SecretariatLive/static/media/yoga_medit.a90fb84d901697165a34.png",
-    "static/media/cochon_euro.jpg": "/SecretariatLive/static/media/cochon_euro.e5b3c70bd919c0c492b7.jpg",
-    "static/media/imgCharge.jpg": "/SecretariatLive/static/media/imgCharge.b0a14fe5fc94305c60ed.jpg",
-    "static/media/imgEntreprise.png": "/SecretariatLive/static/media/imgEntreprise.7acc4a7926ebbb425325.png",
-    "static/media/BarlowCondensed-Thin.ttf": "/SecretariatLive/static/media/BarlowCondensed-Thin.5ab5aa2588185da4dace.ttf",
-    "static/media/email.jpg": "/SecretariatLive/static/media/email.ccd3f552476e4663da7e.jpg",
-    "static/media/call-center-1.jpg": "/SecretariatLive/static/media/call-center-1.aaa89540f9451eae9b8c.jpg",
-    "static/media/assistante.jpeg": "/SecretariatLive/static/media/assistante.d29a2680d7dee478c37d.jpeg",
-    "static/media/why.jpeg": "/SecretariatLive/static/media/why.e903dd3053fd27f25e5b.jpeg",
-    "static/media/logoPetit.png": "/SecretariatLive/static/media/logoPetit.fef0886b61d1d978c5e6.png",
-    "index.html": "/SecretariatLive/index.html",
-    "main.0774b911.css.map": "/SecretariatLive/static/css/main.0774b911.css.map",
-    "main.199a7358.js.map": "/SecretariatLive/static/js/main.199a7358.js.map",
-    "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
+    "main.css": "/static/css/main.0ad1296d.css",
+    "main.js": "/static/js/main.14a45bf2.js",
+    "static/js/787.9f5074cf.chunk.js": "/static/js/787.9f5074cf.chunk.js",
+    "static/media/reflection.jpg": "/static/media/reflection.767bb37b1d44efbcf8b2.jpg",
+    "static/media/imgTextAnim.png": "/static/media/imgTextAnim.0f77f523b853b697917d.png",
+    "static/media/courbe.jpg": "/static/media/courbe.50b7dc7493cb518db208.jpg",
+    "static/media/connections.png": "/static/media/connections.819105585047d8e40010.png",
+    "static/media/yoga_medit.png": "/static/media/yoga_medit.a90fb84d901697165a34.png",
+    "static/media/cochon_euro.jpg": "/static/media/cochon_euro.e5b3c70bd919c0c492b7.jpg",
+    "static/media/imgCharge.jpg": "/static/media/imgCharge.b0a14fe5fc94305c60ed.jpg",
+    "static/media/imgEntreprise.png": "/static/media/imgEntreprise.7acc4a7926ebbb425325.png",
+    "static/media/BarlowCondensed-Thin.ttf": "/static/media/BarlowCondensed-Thin.5ab5aa2588185da4dace.ttf",
+    "static/media/email.jpg": "/static/media/email.ccd3f552476e4663da7e.jpg",
+    "static/media/call-center-1.jpg": "/static/media/call-center-1.aaa89540f9451eae9b8c.jpg",
+    "static/media/assistante.jpeg": "/static/media/assistante.d29a2680d7dee478c37d.jpeg",
+    "static/media/why.jpeg": "/static/media/why.e903dd3053fd27f25e5b.jpeg",
+    "static/media/logoPetit.png": "/static/media/logoPetit.fef0886b61d1d978c5e6.png",
+    "index.html": "/index.html",
+    "main.0ad1296d.css.map": "/static/css/main.0ad1296d.css.map",
+    "main.14a45bf2.js.map": "/static/js/main.14a45bf2.js.map",
+    "787.9f5074cf.chunk.js.map": "/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0774b911.css",
-    "static/js/main.199a7358.js"
+    "static/css/main.0ad1296d.css",
+    "static/js/main.14a45bf2.js"
   ]
 }
