@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SecretariatLive/static/css/main.0774b911.css",
-    "main.js": "/SecretariatLive/static/js/main.3b6dbddb.js",
+    "main.js": "/SecretariatLive/static/js/main.199a7358.js",
     "static/js/787.9f5074cf.chunk.js": "/SecretariatLive/static/js/787.9f5074cf.chunk.js",
     "static/media/reflection.jpg": "/SecretariatLive/static/media/reflection.767bb37b1d44efbcf8b2.jpg",
     "static/media/imgTextAnim.png": "/SecretariatLive/static/media/imgTextAnim.0f77f523b853b697917d.png",
@@ -19,11 +19,11 @@
     "static/media/logoPetit.png": "/SecretariatLive/static/media/logoPetit.fef0886b61d1d978c5e6.png",
     "index.html": "/SecretariatLive/index.html",
     "main.0774b911.css.map": "/SecretariatLive/static/css/main.0774b911.css.map",
-    "main.3b6dbddb.js.map": "/SecretariatLive/static/js/main.3b6dbddb.js.map",
+    "main.199a7358.js.map": "/SecretariatLive/static/js/main.199a7358.js.map",
     "787.9f5074cf.chunk.js.map": "/SecretariatLive/static/js/787.9f5074cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0774b911.css",
-    "static/js/main.3b6dbddb.js"
+    "static/js/main.199a7358.js"
   ]
 }
