@@ -4,15 +4,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // IMPORT
 import './styles/index.scss'
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
 
   </React.StrictMode>
 );

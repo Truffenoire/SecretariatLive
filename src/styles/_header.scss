@@ -90,6 +90,11 @@
                 display: none; 
         }  
     } 
+    .navBar.showNav{
+        button.navBar_Burger{
+                display: none; 
+        }  
+    } 
 }
 
 @keyframes slideFromBot {
