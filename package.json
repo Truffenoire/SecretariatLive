@@ -2,7 +2,7 @@
   "name": "site-anne",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Truffenoire.github.io/SecretariatLive/#/SecretariatLive#ancre",
+  "homepage": "https://Truffenoire.github.io/SecretariatLive/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
