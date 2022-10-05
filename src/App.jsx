@@ -34,7 +34,7 @@ function App() {
       <Header showMenu={showMenu} setShowMenu={setShowMenu} accueil={accueil} setAccueil={setAccueil} service={service} setService={setService} tarifs={tarifs} setTarifs={setTarifs}
         contact={contact} setContact={setContact} faq={faq} setFaq={setFaq} sousMenu={sousMenu} setSousMenu={setSousMenu} />
       <Routes>
-        <Route path="/SecretariatLive" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/entreprises" element={<Entreprises />} />
         <Route path="/particuliers" element={<Particuliers />} />
         <Route path="/tarifs" element={<Tarifs />} />

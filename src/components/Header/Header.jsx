@@ -80,18 +80,18 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
     return (
         <div className='header'>
             <div className='logo'>
-                <Link id={'ancre'} to={"/SecretariatLive"}><img src={logo} alt="Logo secretariat Live" /></Link>
+                <Link id={'ancre'} to={"/home"}><img src={logo} alt="Logo secretariat Live" /></Link>
             </div>
             <nav  className={`navBar ${showMenu ? "showNav" : "hideNav"}`}>
                 <ul className='aLink' >
-                    <li><div id={`${showMenu ? "slideTop0" : "hideNav"}`}><Link id={`${showMenu ? "slideTop" : "hideNav"}`} className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/SecretariatLive#ancre"}>Accueil</Link></div></li>
+                    <li><div id={`${showMenu ? "slideTop0" : "hideNav"}`}><Link id={`${showMenu ? "slideTop" : "hideNav"}`} className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/home#ancre"}>Accueil</Link></div></li>
                     
                     {sousMenu === 1 ?
                     <div className='sousMenuContainer'>
                         <li><div id={`${showMenu ? "slideTop1" : "hideNav"}`}><Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link></div></li>
                         <div onMouseLeave={handleClose} onMouseEnter={handleMenu} className='sousMenu'>
                             <li><Link onClick={handleCloseSousMenu} to={"/entreprises#ancre"}>Entreprises</Link></li>
-                            <li><Link onClick={handleCloseSousMenu} to={"particuliers#ancre"}>Particuliers</Link></li>
+                            <li><Link onClick={handleCloseSousMenu} to={"/particuliers#ancre"}>Particuliers</Link></li>
                         </div>
                     </div>
                         :
