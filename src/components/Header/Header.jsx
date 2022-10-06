@@ -85,7 +85,7 @@ const Header = ( {showMenu, setShowMenu, accueil, setAccueil, service, setServic
             <nav  className={`navBar ${showMenu ? "showNav" : "hideNav"}`}>
                 <ul className='aLink' >
                     <li><div id={`${showMenu ? "slideTop0" : "hideNav"}`}><Link id={`${showMenu ? "slideTop" : "hideNav"}`} className={accueil} onMouseEnter={handleClose} onClick={handleAccueil} to={"/home#ancre"}>Accueil</Link></div></li>
-                  {/*essai  */}
+                
                     {sousMenu === 1 ?
                     <div className='sousMenuContainer'>
                         <li><div id={`${showMenu ? "slideTop1" : "hideNav"}`}><Link className={service} onMouseEnter={handleMenu} to={location[3]}>Services</Link></div></li>
